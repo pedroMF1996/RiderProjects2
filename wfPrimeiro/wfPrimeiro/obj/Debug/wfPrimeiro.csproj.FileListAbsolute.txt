@@ -1,0 +1,8 @@
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\wfPrimeiro\wfPrimeiro\bin\Debug\wfPrimeiro.exe.config
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\wfPrimeiro\wfPrimeiro\bin\Debug\wfPrimeiro.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\wfPrimeiro\wfPrimeiro\bin\Debug\wfPrimeiro.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\wfPrimeiro\wfPrimeiro\obj\Debug\wfPrimeiro.csprojResolveAssemblyReference.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\wfPrimeiro\wfPrimeiro\obj\Debug\wfPrimeiro.Properties.Resources.resources
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\wfPrimeiro\wfPrimeiro\obj\Debug\wfPrimeiro.csproj.GenerateResource.Cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\wfPrimeiro\wfPrimeiro\obj\Debug\wfPrimeiro.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\wfPrimeiro\wfPrimeiro\obj\Debug\wfPrimeiro.pdb

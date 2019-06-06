@@ -1,0 +1,6 @@
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\DefinindoAtributes\DefinindoAtributes\bin\Debug\DefinindoAtributes.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\DefinindoAtributes\DefinindoAtributes\bin\Debug\DefinindoAtributes.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\DefinindoAtributes\DefinindoAtributes\obj\Debug\DefinindoAtributes.csprojAssemblyReference.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\DefinindoAtributes\DefinindoAtributes\obj\Debug\DefinindoAtributes.csproj.CoreCompileInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\DefinindoAtributes\DefinindoAtributes\obj\Debug\DefinindoAtributes.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\DefinindoAtributes\DefinindoAtributes\obj\Debug\DefinindoAtributes.pdb

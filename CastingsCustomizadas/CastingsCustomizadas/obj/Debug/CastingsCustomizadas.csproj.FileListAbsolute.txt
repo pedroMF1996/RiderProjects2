@@ -1,0 +1,6 @@
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\CastingsCustomizadas\CastingsCustomizadas\bin\Debug\CastingsCustomizadas.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\CastingsCustomizadas\CastingsCustomizadas\bin\Debug\CastingsCustomizadas.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\CastingsCustomizadas\CastingsCustomizadas\obj\Debug\CastingsCustomizadas.csprojAssemblyReference.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\CastingsCustomizadas\CastingsCustomizadas\obj\Debug\CastingsCustomizadas.csproj.CoreCompileInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\CastingsCustomizadas\CastingsCustomizadas\obj\Debug\CastingsCustomizadas.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\CastingsCustomizadas\CastingsCustomizadas\obj\Debug\CastingsCustomizadas.pdb

@@ -1,0 +1,4 @@
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\testeRSA10\testeRSA10\obj\Debug\netcoreapp2.2\testeRSA10.csprojAssemblyReference.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\testeRSA10\testeRSA10\obj\Debug\netcoreapp2.2\testeRSA10.csproj.CoreCompileInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\testeRSA10\testeRSA10\obj\Debug\netcoreapp2.2\testeRSA10.AssemblyInfoInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\testeRSA10\testeRSA10\obj\Debug\netcoreapp2.2\testeRSA10.AssemblyInfo.cs

@@ -1,0 +1,6 @@
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\ExercicioProposto2.3SoftBlue\ExercicioProposto2.3SoftBlue\bin\Debug\ExercicioProposto2._3SoftBlue.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\ExercicioProposto2.3SoftBlue\ExercicioProposto2.3SoftBlue\bin\Debug\ExercicioProposto2._3SoftBlue.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\ExercicioProposto2.3SoftBlue\ExercicioProposto2.3SoftBlue\obj\Debug\ExercicioProposto2.3SoftBlue.csprojAssemblyReference.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\ExercicioProposto2.3SoftBlue\ExercicioProposto2.3SoftBlue\obj\Debug\ExercicioProposto2.3SoftBlue.csproj.CoreCompileInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\ExercicioProposto2.3SoftBlue\ExercicioProposto2.3SoftBlue\obj\Debug\ExercicioProposto2._3SoftBlue.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\ExercicioProposto2.3SoftBlue\ExercicioProposto2.3SoftBlue\obj\Debug\ExercicioProposto2._3SoftBlue.pdb

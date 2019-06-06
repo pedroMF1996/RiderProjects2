@@ -1,0 +1,6 @@
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\XmlReaderSoftBlue\XmlReaderSoftBlue\bin\Debug\XmlReaderSoftBlue.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\XmlReaderSoftBlue\XmlReaderSoftBlue\bin\Debug\XmlReaderSoftBlue.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\XmlReaderSoftBlue\XmlReaderSoftBlue\obj\Debug\XmlReaderSoftBlue.csprojAssemblyReference.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\XmlReaderSoftBlue\XmlReaderSoftBlue\obj\Debug\XmlReaderSoftBlue.csproj.CoreCompileInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\XmlReaderSoftBlue\XmlReaderSoftBlue\obj\Debug\XmlReaderSoftBlue.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\XmlReaderSoftBlue\XmlReaderSoftBlue\obj\Debug\XmlReaderSoftBlue.pdb

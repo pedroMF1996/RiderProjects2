@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1a87b37a-d49e-415d-b5e0-5fc20c65781a" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testeRSA10/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <marker date="1559602316237" expanded="true" signature="6:40" ph="..." />
+                <marker date="1559602316237" expanded="true" signature="62:439" ph="{...}" />
+                <marker date="1559602316237" expanded="true" signature="82:437" ph="{...}" />
+                <marker date="1559602316237" expanded="true" signature="128:431" ph="{...}" />
+                <marker date="1559602316237" expanded="true" signature="289:374" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testeRSA10/obj/Debug/netcoreapp2.2/testeRSA10.AssemblyInfo.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="14" column="66" lean-forward="true" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+              <folding>
+                <marker date="1559601419733" expanded="true" signature="0:258" ph="/* ------------------------------------------------------------------------------ ... */" />
+                <marker date="1559601419733" expanded="false" signature="266:298" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testeRSA10/CSharp-easy-RSA-PEM/CSharp-easy-RSA-PEM.csproj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-585" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/testeRSA10/CSharp-easy-RSA-PEM/main.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/testeRSA10/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/testeRSA10/CSharp-easy-RSA-PEM/Helpers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/testeRSA10/obj/Debug/netcoreapp2.2/testeRSA10.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/testeRSA10/CSharp-easy-RSA-PEM/Helpers.cs" />
+        <option value="$PROJECT_DIR$/testeRSA10/Program.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="testeRSA10" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="testeRSA10" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="testeRSA10" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="testeRSA10" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="testeRSA10" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="CSharp-easy-RSA-PEM" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="AndroidSettingsPageId" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/testeRSA10/bin/Debug/netcoreapp2.2/testeRSA10.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testeRSA10" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/testeRSA10/testeRSA10.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.2" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a87b37a-d49e-415d-b5e0-5fc20c65781a" name="Default Changelist" comment="" />
+      <created>1559601344958</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559601344958</updated>
+      <workItem from="1559601356025" duration="1959000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1959000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.3290735" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="TeamCity" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/testeRSA10/CSharp-easy-RSA-PEM/Helpers.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="52" column="33" lean-forward="true" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+          <folding>
+            <marker date="1559601736368" expanded="true" signature="6:64" ph="..." />
+            <marker date="1559601736368" expanded="true" signature="95:8934" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="122:8932" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="225:1699" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="1720:1921" ph="/// This helper function parses an integer size from the reader using the ASN.1 format ... " />
+            <marker date="1559601736368" expanded="true" signature="1992:3001" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="2280:2385" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="2425:2633" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="2650:2753" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="2842:2898" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="3019:3185" ph="///  ... " />
+            <marker date="1559601736368" expanded="true" signature="3248:3494" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="3572:3704" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="3806:3942" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="4057:4869" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="4353:4662" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="4404:4541" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="4562:4648" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="4930:5184" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="5009:5137" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="5236:5493" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="5293:5380" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="5397:5483" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="5544:5796" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="5601:5685" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="5702:5786" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="5807:5979" ph="///  ... " />
+            <marker date="1559601736368" expanded="true" signature="6053:6598" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="6183:6457" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="6304:6415" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="6474:6588" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="6672:7444" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="6821:6923" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="6940:7434" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="7090:7195" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="7316:7420" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="7556:8576" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="7699:7800" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="7849:7957" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="7974:8566" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="8052:8280" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="8301:8407" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="8472:8552" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="8642:8926" ph="{...}" />
+            <marker date="1559601736368" expanded="true" signature="8777:8891" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testeRSA10/CSharp-easy-RSA-PEM/main.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-525">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <marker date="1559601575509" expanded="false" signature="6:302" ph="..." />
+            <marker date="1559601575509" expanded="true" signature="333:31246" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="359:31244" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="374:771" ph="/// This helper function parses an RSA private key using the ASN.1 format ... " />
+            <marker date="1559601575509" expanded="true" signature="876:1853" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="1155:1795" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="1953:6092" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="2097:5880" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="2262:2781" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="2890:3056" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="3139:3278" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="3296:3584" ph="/* The data following the version will be the ASN.1 data itself, which in our case ... */" />
+            <marker date="1559601575509" expanded="true" signature="4221:4804" ph="/* Argh, this is a pain.  From emperical testing it appears to be that RSAParameters doesn't like byte buffers th ... */" />
+            <marker date="1559601575509" expanded="true" signature="5912:6006" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="6026:6082" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="6176:6271" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="6371:10520" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="6513:10308" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="6678:7197" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="7306:7472" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="7555:7694" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="7712:8000" ph="/* The data following the version will be the ASN.1 data itself, which in our case ... */" />
+            <marker date="1559601575509" expanded="true" signature="8637:9220" ph="/* Argh, this is a pain.  From emperical testing it appears to be that RSAParameters doesn't like byte buffers th ... */" />
+            <marker date="1559601575509" expanded="true" signature="9547:10216" ph="/* rsAparams.D = Helpers.AlignBytes(rd.ReadBytes(Helpers.DecodeIntegerSize(rd)), traits.size_D); ... */" />
+            <marker date="1559601575509" expanded="true" signature="10340:10434" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="10454:10510" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="10605:10697" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="10797:15781" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="11101:15569" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="11266:11785" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="12443:12582" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="12973:13261" ph="/* The data following the version will be the ASN.1 data itself, which in our case ... */" />
+            <marker date="1559601575509" expanded="true" signature="13898:14481" ph="/* Argh, this is a pain.  From emperical testing it appears to be that RSAParameters doesn't like byte buffers th ... */" />
+            <marker date="1559601575509" expanded="true" signature="14808:15477" ph="/* rsAparams.D = Helpers.AlignBytes(rd.ReadBytes(Helpers.DecodeIntegerSize(rd)), traits.size_D); ... */" />
+            <marker date="1559601575509" expanded="true" signature="15601:15695" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="15715:15771" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="15875:18179" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="16172:18084" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="16360:17385" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="17476:18070" ph="/* var base64 = Convert.ToBase64String(stream.GetBuffer(), 0, (int)stream.Length).ToCharArray(); ... */" />
+            <marker date="1559601575509" expanded="true" signature="18273:20770" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="18465:20760" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="18653:20062" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="20161:20745" ph="/* var base64 = Convert.ToBase64String(stream.GetBuffer(), 0, (int)stream.Length).ToCharArray(); ... */" />
+            <marker date="1559601575509" expanded="true" signature="20867:21183" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="21277:21595" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="21663:22280" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="22052:22164" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="22385:23535" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="22409:22791" ph="/* ------ Get the 3DES 24 byte key using PDK used by OpenSSL ---- ... */" />
+            <marker date="1559601575509" expanded="true" signature="23015:23130" ph="/* showBytes(&quot;3DES key&quot;, deskey) ; ... */" />
+            <marker date="1559601575509" expanded="true" signature="23370:23525" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="23692:24331" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="23874:24096" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="24130:24235" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="24570:27061" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="25058:25229" ph="/* UTF8Encoding utf8 = new UTF8Encoding(); ... */" />
+            <marker date="1559601575509" expanded="true" signature="25818:26585" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="26006:26355" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="26238:26337" ph="/* Console.WriteLine(&quot;Updated new initial hash target:&quot;) ; ... */" />
+            <marker date="1559601575509" expanded="true" signature="27156:27252" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="27338:29107" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="27361:27614" ph="/* TODO: Add Proper Exception Handlers ... */" />
+            <marker date="1559601575509" expanded="true" signature="27684:27864" ph="/* The hash function in use by the .NET RSACryptoServiceProvider here is SHA1 ... */" />
+            <marker date="1559601575509" expanded="true" signature="28115:29052" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="28432:28769" ph="/* Be aware the RSACryptoServiceProvider reverses the order of encrypted bytes after encryption and before decryp ... */" />
+            <marker date="1559601575509" expanded="true" signature="28833:28960" ph="/* Why convert to base 64? ... */" />
+            <marker date="1559601575509" expanded="true" signature="29200:29296" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="29388:30633" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="29411:29622" ph="/* TODO: Add Proper Exception Handlers ... */" />
+            <marker date="1559601575509" expanded="true" signature="29919:30546" ph="{...}" />
+            <marker date="1559601575509" expanded="true" signature="30077:30414" ph="/* Be aware the RSACryptoServiceProvider reverses the order of encrypted bytes after encryption and before decryp ... */" />
+            <marker date="1559601575509" expanded="true" signature="30717:31238" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testeRSA10/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <marker date="1559602316237" expanded="true" signature="6:40" ph="..." />
+            <marker date="1559602316237" expanded="true" signature="62:439" ph="{...}" />
+            <marker date="1559602316237" expanded="true" signature="82:437" ph="{...}" />
+            <marker date="1559602316237" expanded="true" signature="128:431" ph="{...}" />
+            <marker date="1559602316237" expanded="true" signature="289:374" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testeRSA10/CSharp-easy-RSA-PEM/CSharp-easy-RSA-PEM.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-585" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testeRSA10/obj/Debug/netcoreapp2.2/testeRSA10.AssemblyInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="66" lean-forward="true" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+          <folding>
+            <marker date="1559601419733" expanded="true" signature="0:258" ph="/* ------------------------------------------------------------------------------ ... */" />
+            <marker date="1559601419733" expanded="false" signature="266:298" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

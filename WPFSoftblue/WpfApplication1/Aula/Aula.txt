@@ -1,0 +1,340 @@
+Windows Presentation Foundation
+      Antes do .NET 3.0 a API Windows Forms era usada na criação de interfaces gráficas
+            Era necessario usar outras apis para a renderização 2D/3D, vídeo e documentos
+      A partir do .NET 3.0, surgiu a API Windows Presentation Foundation
+            WPF
+            OBJETIVOS
+                  Unificação de API
+                  Separação da lógica da aplicação da parte visual
+      Assemblies necessários
+            PresetationCore.dll
+            PresentationFramework.dll
+            System.Xaml.dll
+            WindowsBase.dll
+       
+Classes Aplication e Window
+      São as primeiras classes com as quais se tem contato ao criar as aplicações graficas
+      Application
+            Representa a aplicação como um todo;
+            Existe apenas uma instancia dessa classe durante a execução
+            
+            class Program: Application
+            {
+                  [STAThread]
+                  static void Main(string[] args)
+                  {
+                        Program app = new Program();
+                        app.Startup += AppStartup;
+                        app.Exit += AppExit;
+                        app.Run(); 
+                  }
+                  
+                  static void AppStartup(object sender, StartupEventArgs args){ }
+                  static void AppExit(object sender, ExitEventArgs args){ }
+            }
+            
+      Window
+            Representa uma janela da aplicação
+            
+            class AppWindow : Window
+            {
+                  public AppWindow(string title, int width, int height)
+                  {
+                        this.Title = title;
+                        this.Width = width;
+                        this.Height = height;
+                  }
+            } 
+            
+Linguagem Xaml
+      Extensible Application Markup Language    
+      Sintaxe
+            Baseada em xml
+            Ferramentas geram o xaml a partir de editores graficos, mas é importante saber o que está sendo gerado
+            As vezes é necessario fazer ajustes diretamente no xaml
+            Uma ferramenta que pode ajudar no aprendizado de XAML é a KAXAML
+            
+                  <Window>Tag raiz 
+                        <StackPanel> Organizador de layout
+                              <Label/>
+                              <Button>
+                                    <Elipse/>
+                              </>
+                        </StackPanel>
+                  </Window>
+            
+      O papel do xaml em aplicações WPF
+            usada para construir a parte visual da aplicação
+            
+            Unidades de medida 
+                  Usar pixels diretamente pode afetar o resultado visual da aplicação 
+                  dependendo das caracteristicas da tela
+                  
+                  Todos os tamanhos são especificados em device-independent unit
+                        Adequação dos elementos  a diferentes resoluções e densidades de telas
+
+Tratamento de eventos
+      A linguagem Xaml é capaz de referenciar método; 
+      que são chamados quando da ocorrencia de eventos
+      <Window x:Class="MainWindow">
+            <Button x:Name="btnApp" Content="Botão" HorizontalAlignment="Center"
+                  VerticalAlignment="Center" Width="75" Height="37" Click="btnApp_Click"/>
+      <Window/>
+      
+      public partial class MainWindow : Window
+      {
+            private void btnApp_Click (object sender, RoutedEventArgs e)
+            {
+                  MessageBox.Show("Botão clicado!");
+            }
+      }
+      
+      
+Controles do WPF
+      São elementos usados na montagem da interface gráfica 
+      
+      Input       Janela      Layout
+ _____________________________________________
+      Button      Menu        Grid
+      ComboBox    ToolBar     Canvas
+      TextBox     StatusBar   StackPanel
+      Label       ProgressBar Viewbox
+      CheckBox    Tooltip     DockPanel
+      RadioButton             Border
+      
+Gerenciadores de layouts
+      StackPanel, WrapPanel, Canvas, DockPanel, Grid
+            Normalmente, uma série de controles são usados na interface
+            Esses controles são organizados na interface grafica
+      A interface gráfica pode ser organizada através do uso de paineis
+      StackPanel
+            Os controles são dispostos na horizontal ou na vertical
+      
+            <Window>
+                  <StackPanel Orientation="Horizontal">
+                        <Button Content="Botão 1" Width="100" Height="25" Margin="0,10,10,0" />
+                        <Button Content="Botão 2" Width="100" Height="25" Margin="0,10,10,0" />
+                        <Button Content="Botão 3" Width="100" Height="25" Margin="0,10,10,0" />
+                        <Button Content="Botão 4" Width="100" Height="25" Margin="0,10,10,0" />
+                        <Button Content="Botão 5" Width="100" Height="25" Margin="0,10,10,0" />
+                  </StackPanel>
+            </Window>
+            
+      WrapPanel
+            Funciona da mesma forma que o StackPanel 
+            mas arruma os controles se eles não couberem na tela
+            
+            <Window>
+                  <WrapPanel Orientation="Horizontal">
+                        <Button Content="Botão 1" Width="100" Height="25" Margin="10,10,10,0" />
+                        <Button Content="Botão 2" Width="100" Height="25" Margin="10,10,10,0" />
+                        <Button Content="Botão 3" Width="100" Height="25" Margin="10,10,10,0" />
+                        <Button Content="Botão 4" Width="100" Height="25" Margin="10,10,10,0" />
+                        <Button Content="Botão 5" Width="100" Height="25" Margin="10,10,10,0" />
+                  </WrapPanel>
+            </Window>
+
+            
+      Canvas
+            Permite posicionar os controles de forma absoluta na tela
+            Os controles só aparecem se estiverem na area visivel da janela
+      
+            <Window>
+                  <Canvas Width="400" Height="200" Background="LightGreen">
+                        <Button Content="Botão 1" Canvas.Left="10" Canvas.Top="10" />
+                        <Button Content="Botão 2" Canvas.Left="120" Canvas.Top="45" />
+                        <Button Content="Botão 3" Canvas.Left="230" Canvas.Top="80" />
+                  </Canvas>
+            </Window>
+      
+      DockPanel
+            Pode fixar os controles nas laterais ou nas partes inferior ou superior
+            
+            <Window>
+                  <DockPanel Width="400" Height="200">
+                        <Button Content="Botão 1" DockPanel.Dock="Left" />
+                        <Button Content="Botão 2" DockPanel.Dock="Right" />
+                        <Button Content="Botão 3" DockPanel.Dock="Top" />
+                        <Button Content="Botão 4" DockPanel.Dock="Bottom" />
+                  </DockPanel>
+            </Window>
+            
+      Grid
+            Permite a disposição dos controles em celulas, 
+            semelhante a uma tabela
+            
+            <Window>
+                  <Grid Width="400" Height="200" ShowGridLines="False">
+                        <Grid.ColumnDefinitions>
+                              <ColumnDefinition Width="60" />
+                              <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                              <RowDefinition Height="35" />
+                              <RowDefinition Height="35" />
+                              <RowDefinition Height="35" />
+                        </Grid.RowDefinitions>
+
+                        <Label Content="Formulário" Grid.ColumnSpan="2" FontSize="20" />
+                        <Label Content="Label 1:" Grid.Row="1" Grid.Column="0" />
+                        <TextBox Text="Texto 1" Grid.Row="1" Grid.Column="1" />
+                        <Label Content="Label 2:" Grid.Row="2" Grid.Column="0" />
+                        <TextBox Text="Texto 2" Grid.Row="2" Grid.Column="1" />
+                  </Grid>
+            </Window>
+
+      Scrolling 
+            barra de rolagem lateral
+            Um ScrollViewer pode ser usado quando é necessário que um painel tenha scrolling
+            
+            <Window>
+                  <ScrollViewer>
+                        <StackPanel>
+                              <Button Content="Botão 1" Width="100" Height="25" />
+                              <Button Content="Botão 2" Width="100" Height="25" />
+                              <Button Content="Botão 3" Width="100" Height="25" />
+                              <Button Content="Botão 4" Width="100" Height="25" />
+                              <Button Content="Botão 5" Width="100" Height="25" />
+                        </StackPanel>
+                  </ScrollViewer>
+            </Window>
+
+                                    
+
+Outros controles
+      Menu, Barra de ferramentas, barra de status, caixas de diálogo e caixa de mensagem
+      
+      Menus
+      <Window>
+            <DockPanel>
+                  <Menu DockPanel.Dock="Top" HorizontalAlignment="Left">
+                              <MenuItem Header="_Arquivo">
+                              <MenuItem Header="_Novo" />
+                        <Separator />
+                              <MenuItem Header="_Sair" />
+                              </MenuItem>
+                              <MenuItem Header="_Editar">
+                              </MenuItem>
+                  </Menu>
+            </DockPanel>
+      </Window>
+      
+      Barra de ferramentas 
+            É composta por botões que realizam
+            determinadas ações
+
+      <Window>
+            <DockPanel>
+                  <ToolBar DockPanel.Dock="Top" Height="30" VerticalAlignment="Top">
+                              <Button Content="Novo" />
+                        <Separator/>
+                              <Button Content="Editar" />
+                        <Separator/>
+                              <Button Content="Excluir" />
+                  </ToolBar>
+            </DockPanel>
+      </Window>
+      
+      Barra de status
+            É uma barra informativa exibida na parte
+            inferior da janela
+      
+      <Window>
+            <DockPanel>
+                  <StatusBar DockPanel.Dock="Bottom" Height="25" VerticalAlignment="Bottom">
+                        <TextBlock Text="Barra de status" />
+                  </StatusBar>
+            </DockPanel>
+      </Window>
+      
+      Caixas de dialogo
+            As classes OpenFileDialog e SaveFileDialog
+            podem ser utilizadas quando é necessário
+            abrir ou salvar um arquivo, respectivamente
+       
+      OpenFileDialog dialog = new OpenFileDialog();
+      dialog.InitialDirectory = "C:\\Downloads";
+      dialog.Filter = "Imagens|*.png;*.jpg";
+      if (dialog.ShowDialog(this) == true)
+      {
+            String file = dialog.FileName;
+      }      
+      
+      Caixas de dialogo:Open e Save
+      
+            SaveFileDialog dialog = new SaveFileDialog();
+            dialog.InitialDirectory = "C:\\Downloads";
+            dialog.Filter = "Texto|*.txt";
+            if (dialog.ShowDialog(this) == true)
+            {
+                  String file = dialog.FileName;
+            }
+
+      Caixas de mensagens
+            A classe MessageBox pode ser usada
+            quando é necessário exibir uma mensagem
+            ao usuário ou fazer uma pergunta
+      
+      MessageBox.Show(this, "Parabéns pelo seu aniversário!");
+      
+      MessageBox.Show(this, "O processamento terminou!", "Fim",
+            MessageBoxButton.OK, MessageBoxImage.Information);
+
+
+      MessageBoxResult result = MessageBox.Show(this, "Vai chover hoje?",
+      "Pergunta", MessageBoxButton.YesNo, MessageBoxImage.Question);
+      
+      if (result == MessageBoxResult.Yes)
+      {
+            //...
+      }
+      else
+      {
+            //...
+      }
+      
+Resources
+      São arquivos referenciados pela aplicação,
+      usados durante a execução
+            imagens
+            Som
+            Video
+            Documento   
+            
+      Tipos
+            Externos ao assembly
+                  os arquivos ficam no sistema de arquivos,
+                  dentro do diretório de aplicação
+            Interno ao assembly
+                  Os arquivos são incorporados 
+                  ao assembly da aplicação
+                         
+      Como referenciar   
+            
+            <Button>
+                  <Image Source="Images/new.png" />
+            </Button>
+            <Button>
+                  <Image Source="Images/open.png" />
+            </Button>   
+            
+            Resources via programação
+                  Externos ao assembly
+                        string dir = Environment.CurrentDirectory;    Diretório da aplicação
+                        imgNew.Source = new BitmapImage(new Uri(dir + "\\Images\\new.png"));
+                        imgOpen.Source = new BitmapImage(new Uri(dir + "\\Images\\open.png"));
+                        
+                  Internos ao assembly
+                        imgNew.Source = new BitmapImage(
+                                                new Uri(
+                                                      "\\Images\\new.png", 
+                                                      UriKind.Relative
+                                                )
+                                        );
+                        imgOpen.Source = new BitmapImage(
+                                                new Uri(
+                                                      "\\Images\\open.png", 
+                                                      UriKind.Relative
+                                                )
+                                          );
+      

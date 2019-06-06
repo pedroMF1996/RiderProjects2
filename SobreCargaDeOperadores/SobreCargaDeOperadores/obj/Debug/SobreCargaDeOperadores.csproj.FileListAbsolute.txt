@@ -1,0 +1,6 @@
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\SobreCargaDeOperadores\SobreCargaDeOperadores\bin\Debug\SobreCargaDeOperadores.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\SobreCargaDeOperadores\SobreCargaDeOperadores\bin\Debug\SobreCargaDeOperadores.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\SobreCargaDeOperadores\SobreCargaDeOperadores\obj\Debug\SobreCargaDeOperadores.csprojAssemblyReference.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\SobreCargaDeOperadores\SobreCargaDeOperadores\obj\Debug\SobreCargaDeOperadores.csproj.CoreCompileInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\SobreCargaDeOperadores\SobreCargaDeOperadores\obj\Debug\SobreCargaDeOperadores.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\SobreCargaDeOperadores\SobreCargaDeOperadores\obj\Debug\SobreCargaDeOperadores.pdb

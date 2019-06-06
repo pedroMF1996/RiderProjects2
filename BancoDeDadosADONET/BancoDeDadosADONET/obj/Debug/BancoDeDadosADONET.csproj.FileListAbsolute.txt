@@ -1,0 +1,7 @@
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\BancoDeDadosADONET\BancoDeDadosADONET\bin\Debug\BancoDeDadosADONET.exe.config
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\BancoDeDadosADONET\BancoDeDadosADONET\bin\Debug\BancoDeDadosADONET.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\BancoDeDadosADONET\BancoDeDadosADONET\bin\Debug\BancoDeDadosADONET.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\BancoDeDadosADONET\BancoDeDadosADONET\obj\Debug\BancoDeDadosADONET.csprojAssemblyReference.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\BancoDeDadosADONET\BancoDeDadosADONET\obj\Debug\BancoDeDadosADONET.csproj.CoreCompileInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\BancoDeDadosADONET\BancoDeDadosADONET\obj\Debug\BancoDeDadosADONET.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\BancoDeDadosADONET\BancoDeDadosADONET\obj\Debug\BancoDeDadosADONET.pdb

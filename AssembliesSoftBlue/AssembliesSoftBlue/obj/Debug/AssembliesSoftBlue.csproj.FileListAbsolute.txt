@@ -1,0 +1,9 @@
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\AssembliesSoftBlue\AssembliesSoftBlue\bin\Debug\AssembliesSoftBlue.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\AssembliesSoftBlue\AssembliesSoftBlue\bin\Debug\AssembliesSoftBlue.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\AssembliesSoftBlue\AssembliesSoftBlue\bin\Debug\SoftBlueLib.dll
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\AssembliesSoftBlue\AssembliesSoftBlue\bin\Debug\SoftBlueLib.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\AssembliesSoftBlue\AssembliesSoftBlue\obj\Debug\AssembliesSoftBlue.csprojAssemblyReference.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\AssembliesSoftBlue\AssembliesSoftBlue\obj\Debug\AssembliesSoftBlue.csproj.CoreCompileInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\AssembliesSoftBlue\AssembliesSoftBlue\obj\Debug\AssembliesSoftBlue.csproj.CopyComplete
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\AssembliesSoftBlue\AssembliesSoftBlue\obj\Debug\AssembliesSoftBlue.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\AssembliesSoftBlue\AssembliesSoftBlue\obj\Debug\AssembliesSoftBlue.pdb

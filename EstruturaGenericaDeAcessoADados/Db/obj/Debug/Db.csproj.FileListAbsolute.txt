@@ -1,0 +1,6 @@
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\EstruturaGenericaDeAcessoADados\Db\bin\Debug\Db.dll
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\EstruturaGenericaDeAcessoADados\Db\bin\Debug\Db.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\EstruturaGenericaDeAcessoADados\Db\obj\Debug\Db.csprojAssemblyReference.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\EstruturaGenericaDeAcessoADados\Db\obj\Debug\Db.csproj.CoreCompileInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\EstruturaGenericaDeAcessoADados\Db\obj\Debug\Db.dll
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\EstruturaGenericaDeAcessoADados\Db\obj\Debug\Db.pdb

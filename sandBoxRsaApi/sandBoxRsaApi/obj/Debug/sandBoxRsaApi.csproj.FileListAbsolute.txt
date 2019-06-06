@@ -1,0 +1,2 @@
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\sandBoxRsaApi\sandBoxRsaApi\obj\Debug\sandBoxRsaApi.csprojAssemblyReference.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\sandBoxRsaApi\sandBoxRsaApi\obj\Debug\sandBoxRsaApi.csproj.CoreCompileInputs.cache

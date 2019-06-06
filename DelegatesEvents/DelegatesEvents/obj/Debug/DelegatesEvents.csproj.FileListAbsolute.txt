@@ -1,0 +1,6 @@
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\DelegatesEvents\DelegatesEvents\bin\Debug\DelegatesEvents.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\DelegatesEvents\DelegatesEvents\bin\Debug\DelegatesEvents.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\DelegatesEvents\DelegatesEvents\obj\Debug\DelegatesEvents.csprojAssemblyReference.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\DelegatesEvents\DelegatesEvents\obj\Debug\DelegatesEvents.csproj.CoreCompileInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\DelegatesEvents\DelegatesEvents\obj\Debug\DelegatesEvents.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\DelegatesEvents\DelegatesEvents\obj\Debug\DelegatesEvents.pdb

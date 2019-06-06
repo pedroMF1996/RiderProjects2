@@ -1,0 +1,16 @@
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\SandBoxApiRsa\SandBoxApiRsa\bin\Debug\netcoreapp2.2\SandBoxApiRsa.deps.json
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\SandBoxApiRsa\SandBoxApiRsa\bin\Debug\netcoreapp2.2\SandBoxApiRsa.runtimeconfig.json
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\SandBoxApiRsa\SandBoxApiRsa\bin\Debug\netcoreapp2.2\SandBoxApiRsa.runtimeconfig.dev.json
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\SandBoxApiRsa\SandBoxApiRsa\bin\Debug\netcoreapp2.2\SandBoxApiRsa.dll
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\SandBoxApiRsa\SandBoxApiRsa\bin\Debug\netcoreapp2.2\SandBoxApiRsa.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\SandBoxApiRsa\SandBoxApiRsa\bin\Debug\netcoreapp2.2\RSA.Domain.dll
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\SandBoxApiRsa\SandBoxApiRsa\bin\Debug\netcoreapp2.2\RSAlib.dll
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\SandBoxApiRsa\SandBoxApiRsa\bin\Debug\netcoreapp2.2\RSA.Domain.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\SandBoxApiRsa\SandBoxApiRsa\bin\Debug\netcoreapp2.2\RSAlib.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\SandBoxApiRsa\SandBoxApiRsa\obj\Debug\netcoreapp2.2\SandBoxApiRsa.csprojAssemblyReference.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\SandBoxApiRsa\SandBoxApiRsa\obj\Debug\netcoreapp2.2\SandBoxApiRsa.csproj.CoreCompileInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\SandBoxApiRsa\SandBoxApiRsa\obj\Debug\netcoreapp2.2\SandBoxApiRsa.AssemblyInfoInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\SandBoxApiRsa\SandBoxApiRsa\obj\Debug\netcoreapp2.2\SandBoxApiRsa.AssemblyInfo.cs
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\SandBoxApiRsa\SandBoxApiRsa\obj\Debug\netcoreapp2.2\SandBoxApiRsa.csproj.CopyComplete
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\SandBoxApiRsa\SandBoxApiRsa\obj\Debug\netcoreapp2.2\SandBoxApiRsa.dll
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\SandBoxApiRsa\SandBoxApiRsa\obj\Debug\netcoreapp2.2\SandBoxApiRsa.pdb

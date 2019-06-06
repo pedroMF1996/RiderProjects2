@@ -1,0 +1,6 @@
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\Tabuleiro\Tabuleiro\bin\Debug\Tabuleiro.dll
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\Tabuleiro\Tabuleiro\bin\Debug\Tabuleiro.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\Tabuleiro\Tabuleiro\obj\Debug\Tabuleiro.csprojAssemblyReference.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\Tabuleiro\Tabuleiro\obj\Debug\Tabuleiro.csproj.CoreCompileInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\Tabuleiro\Tabuleiro\obj\Debug\Tabuleiro.dll
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\Tabuleiro\Tabuleiro\obj\Debug\Tabuleiro.pdb

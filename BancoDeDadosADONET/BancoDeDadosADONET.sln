@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoDeDadosADONET", "BancoDeDadosADONET\BancoDeDadosADONET.csproj", "{CBBA3367-2E0C-4532-8B35-8E24FEA63985}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBBA3367-2E0C-4532-8B35-8E24FEA63985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBBA3367-2E0C-4532-8B35-8E24FEA63985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBBA3367-2E0C-4532-8B35-8E24FEA63985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBBA3367-2E0C-4532-8B35-8E24FEA63985}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

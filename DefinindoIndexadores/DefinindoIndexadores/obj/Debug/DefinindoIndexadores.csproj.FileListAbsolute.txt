@@ -1,0 +1,6 @@
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\DefinindoIndexadores\DefinindoIndexadores\obj\Debug\DefinindoIndexadores.csprojAssemblyReference.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\DefinindoIndexadores\DefinindoIndexadores\obj\Debug\DefinindoIndexadores.csproj.CoreCompileInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\DefinindoIndexadores\DefinindoIndexadores\bin\Debug\DefinindoIndexadores.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\DefinindoIndexadores\DefinindoIndexadores\bin\Debug\DefinindoIndexadores.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\DefinindoIndexadores\DefinindoIndexadores\obj\Debug\DefinindoIndexadores.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\DefinindoIndexadores\DefinindoIndexadores\obj\Debug\DefinindoIndexadores.pdb

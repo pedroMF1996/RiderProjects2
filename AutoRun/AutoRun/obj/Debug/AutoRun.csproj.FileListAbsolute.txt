@@ -1,0 +1,6 @@
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\AutoRun\AutoRun\bin\Debug\AutoRun.dll
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\AutoRun\AutoRun\bin\Debug\AutoRun.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\AutoRun\AutoRun\obj\Debug\AutoRun.csprojAssemblyReference.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\AutoRun\AutoRun\obj\Debug\AutoRun.csproj.CoreCompileInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\AutoRun\AutoRun\obj\Debug\AutoRun.dll
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\AutoRun\AutoRun\obj\Debug\AutoRun.pdb

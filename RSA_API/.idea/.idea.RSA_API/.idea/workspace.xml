@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bdd2ad1a-932c-454c-ac88-ba1a854df13d" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RSA.API/Controllers/TextoController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+              <folding>
+                <marker date="1559173093086" expanded="true" signature="6:49" ph="..." />
+                <marker date="1559173093086" expanded="true" signature="80:1125" ph="{...}" />
+                <marker date="1559173093086" expanded="true" signature="115:1123" ph="{...}" />
+                <marker date="1559173093086" expanded="true" signature="130:178" ph="/* Criar dois métodos ... */" />
+                <marker date="1559173093086" expanded="true" signature="195:390" ph="/* Salva o texto inicial no banco, ... */" />
+                <marker date="1559173093086" expanded="true" signature="450:654" ph="/* Salva o texto inicial no banco, ... */" />
+                <marker date="1559173093086" expanded="true" signature="688:849" ph="/* Outra forma de descriptografar é fazer uma pesquisa linq ... */" />
+                <marker date="1559173093086" expanded="true" signature="883:1117" ph="/* Outra forma de descriptografar é receber o texto criptografado ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RSA.Infra/Data/RsaDbContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+              <folding>
+                <marker date="1559219355476" expanded="true" signature="62:127" ph="{...}" />
+                <marker date="1559219355476" expanded="true" signature="104:125" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/RSA.API/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RSA.API/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RSA.API/Controllers/TextoController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RSAlib/RSAFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RSA.API/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RSA.Domain/Dominio/User.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RSA.Infra/Data/RsaDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RSA.Infra/Mapeamentos/TextMap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RSA.Infra/Mapeamentos/UserMap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RSAlib/RSA.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RSA.Domain/Dominio/Texto.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/RSA_API/Controllers/ValuesController.cs" />
+        <option value="$PROJECT_DIR$/RSA_API/Dominio/Texto.cs" />
+        <option value="$PROJECT_DIR$/RSA_API.Domain/Class1.cs" />
+        <option value="$PROJECT_DIR$/RSA_API/Controllers/TextoController.cs" />
+        <option value="$PROJECT_DIR$/RSA_API.Infra/Class1.cs" />
+        <option value="$PROJECT_DIR$/RSA_API.Infra/Rsa_ApiDataContext.cs" />
+        <option value="$PROJECT_DIR$/RSA_API.Infra/DataContext/Rsa_ApiDataContext.cs" />
+        <option value="$PROJECT_DIR$/RSA.API/Web.config" />
+        <option value="$PROJECT_DIR$/RSA.API/Startup.cs" />
+        <option value="$PROJECT_DIR$/RSA_API.Domain/Dominio/TextoCriptografado.cs" />
+        <option value="$PROJECT_DIR$/RSA_API.Infra/Mappings/TextoMap.cs" />
+        <option value="$PROJECT_DIR$/RSA.API/algoritmoRSA/AlgoritmoRSA.txt" />
+        <option value="$PROJECT_DIR$/RSAlib/Class1.cs" />
+        <option value="$PROJECT_DIR$/RSAlib/Calculo.cs" />
+        <option value="$PROJECT_DIR$/RSA.API/Program.cs" />
+        <option value="$PROJECT_DIR$/RSAlib/RSAFactory.cs" />
+        <option value="$PROJECT_DIR$/RSA.API/Controllers/TextoController.cs" />
+        <option value="$PROJECT_DIR$/RSAlib/RSA.cs" />
+        <option value="$PROJECT_DIR$/RSA_API.Domain/Dominio/User.cs" />
+        <option value="$PROJECT_DIR$/RSA_API.Domain/Dominio/Texto.cs" />
+        <option value="$PROJECT_DIR$/RSA_API.Infra/DataContexts/Rsa_ApiDataContext.cs" />
+        <option value="$PROJECT_DIR$/RSA.Infra/DataContext/BivliotecaContexto.cs" />
+        <option value="$PROJECT_DIR$/RSA.Infra/DataContext/BibliotecaContexto.cs" />
+        <option value="$PROJECT_DIR$/RSA.Domain/Class1.cs" />
+        <option value="$PROJECT_DIR$/RSA.Domain/Dominio/User.cs" />
+        <option value="$PROJECT_DIR$/RSA.Infra/Class1.cs" />
+        <option value="$PROJECT_DIR$/RSA.Infra/Data/DbContext.cs" />
+        <option value="$PROJECT_DIR$/RSA.Infra/Data/RsaDbContext.cs" />
+        <option value="$PROJECT_DIR$/RSA.Domain/Dominio/Texto.cs" />
+        <option value="$PROJECT_DIR$/RSA.Infra/Mapeamentos/TextMap.cs" />
+        <option value="$PROJECT_DIR$/RSA.Infra/Mapeamentos/UserMap.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="RSA_API" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="RSA_API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="RSA.Domain" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="RSA_API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="RSA.Domain" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dominio" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="RSA_API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="RSA.Infra" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="RSA_API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="RSA.Infra" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="References" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="RSA_API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="RSA.Infra" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="References" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Projects" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="RSA_API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="RSA.Infra" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Data" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="RSA_API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="RSA.Infra" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Mapeamentos" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="RSA_API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="RSAlib" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="AndroidSettingsPageId" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.RSA_API">
+    <configuration name="RSA_API" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/RSA_API/RSA_API.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
+      <option name="LAUNCH_PROFILE_NAME" value="RSA_API" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RSA_API: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/RSA_API/RSA_API.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bdd2ad1a-932c-454c-ac88-ba1a854df13d" name="Default Changelist" comment="" />
+      <created>1559129064260</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559129064260</updated>
+      <workItem from="1559129082919" duration="22729000" />
+      <workItem from="1559168907806" duration="4001000" />
+      <workItem from="1559216598347" duration="6465000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="33195000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290735" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49924356" visible="true" weight="0.3290735" />
+      <window_info anchor="bottom" id="REST Client" order="8" weight="0.3290735" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3290735" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.3290735" />
+      <window_info anchor="bottom" id="Performance Profiler" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50075644" side_tool="true" weight="0.3290735" />
+      <window_info anchor="bottom" id="NuGet" order="14" sideWeight="0.49924356" weight="0.3290735" />
+      <window_info anchor="bottom" id="Unit Tests" order="15" />
+      <window_info anchor="bottom" id="Database Changes" order="16" />
+      <window_info anchor="bottom" id="Version Control" order="17" />
+      <window_info anchor="bottom" id="TeamCity" order="18" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+      <window_info anchor="right" id="Errors In Solution" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/RSA.API/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSA_API.Domain/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/RSA_API/Controllers/TextoController.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api.http">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSA.API/Controllers/ValuesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <marker date="1559135709980" expanded="false" signature="6:128" ph="..." />
+            <marker date="1559135709980" expanded="true" signature="159:967" ph="{...}" />
+            <marker date="1559135709980" expanded="true" signature="264:965" ph="{...}" />
+            <marker date="1559135709980" expanded="true" signature="369:443" ph="{...}" />
+            <marker date="1559135709980" expanded="true" signature="546:594" ph="{...}" />
+            <marker date="1559135709980" expanded="true" signature="691:711" ph="{...}" />
+            <marker date="1559135709980" expanded="true" signature="823:843" ph="{...}" />
+            <marker date="1559135709980" expanded="true" signature="939:959" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSA.API/Web.config" />
+    <entry file="file://$PROJECT_DIR$/RSA.API/Properties/launchSettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSA.API/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <marker date="1559150498096" expanded="true" signature="6:425" ph="..." />
+            <marker date="1559150498096" expanded="true" signature="444:1541" ph="{...}" />
+            <marker date="1559150498096" expanded="true" signature="471:1539" ph="{...}" />
+            <marker date="1559150498096" expanded="true" signature="530:593" ph="{...}" />
+            <marker date="1559150498096" expanded="true" signature="816:925" ph="{...}" />
+            <marker date="1559150498096" expanded="true" signature="1113:1533" ph="{...}" />
+            <marker date="1559150498096" expanded="true" signature="1160:1237" ph="{...}" />
+            <marker date="1559150498096" expanded="true" signature="1254:1457" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSA_API.Domain/Dominio/TextoCriptografado.cs" />
+    <entry file="file://$PROJECT_DIR$/RSA.API/algoritmoRSA/AlgoritmoRSA.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSA_API.Infra/Mappings/TextoMap.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <marker date="1559157106616" expanded="true" signature="6:74" ph="..." />
+            <marker date="1559157106616" expanded="true" signature="108:367" ph="{...}" />
+            <marker date="1559157106616" expanded="true" signature="169:365" ph="{...}" />
+            <marker date="1559157106616" expanded="true" signature="201:359" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSA.API/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <marker date="1559163248271" expanded="false" signature="6:269" ph="..." />
+            <marker date="1559163248271" expanded="true" signature="288:615" ph="{...}" />
+            <marker date="1559163248271" expanded="true" signature="315:613" ph="{...}" />
+            <marker date="1559163248271" expanded="true" signature="368:442" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSA.Infra/DataContext/BibliotecaContexto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSA.Domain/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSA_API.Infra/DataContexts/Rsa_ApiDataContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSA.Infra/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSA.Infra/Mapeamentos/TextMap.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <marker date="1559220037469" expanded="true" signature="69:119" ph="{...}" />
+            <marker date="1559220037469" expanded="true" signature="96:117" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSA.Infra/Mapeamentos/UserMap.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <marker date="1559220043816" expanded="true" signature="69:120" ph="{...}" />
+            <marker date="1559220043816" expanded="true" signature="97:118" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSAlib/RSAFactory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <marker date="1559163406067" expanded="true" signature="16:173" ph="{...}" />
+            <marker date="1559163406067" expanded="true" signature="53:171" ph="{...}" />
+            <marker date="1559163406067" expanded="true" signature="116:165" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSAlib/RSA.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <marker date="1559171026029" expanded="true" signature="6:49" ph="..." />
+            <marker date="1559171026029" expanded="true" signature="67:1597" ph="{...}" />
+            <marker date="1559171026029" expanded="true" signature="90:1595" ph="{...}" />
+            <marker date="1559171026029" expanded="true" signature="223:711" ph="{...}" />
+            <marker date="1559171026029" expanded="true" signature="311:537" ph="{...}" />
+            <marker date="1559171026029" expanded="true" signature="795:1148" ph="{...}" />
+            <marker date="1559171026029" expanded="true" signature="916:1092" ph="{...}" />
+            <marker date="1559171026029" expanded="true" signature="1235:1589" ph="{...}" />
+            <marker date="1559171026029" expanded="true" signature="1359:1538" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSA.Domain/Dominio/User.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <marker date="1559218886799" expanded="true" signature="28:533" ph="{...}" />
+            <marker date="1559218886799" expanded="true" signature="52:531" ph="{...}" />
+            <marker date="1559218886799" expanded="true" signature="272:379" ph="{...}" />
+            <marker date="1559218886799" expanded="true" signature="422:525" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSA.Domain/Dominio/Texto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSA.Infra/Data/RsaDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+          <folding>
+            <marker date="1559219355476" expanded="true" signature="62:127" ph="{...}" />
+            <marker date="1559219355476" expanded="true" signature="104:125" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSA.API/Controllers/TextoController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <marker date="1559173093086" expanded="true" signature="6:49" ph="..." />
+            <marker date="1559173093086" expanded="true" signature="80:1125" ph="{...}" />
+            <marker date="1559173093086" expanded="true" signature="115:1123" ph="{...}" />
+            <marker date="1559173093086" expanded="true" signature="130:178" ph="/* Criar dois métodos ... */" />
+            <marker date="1559173093086" expanded="true" signature="195:390" ph="/* Salva o texto inicial no banco, ... */" />
+            <marker date="1559173093086" expanded="true" signature="450:654" ph="/* Salva o texto inicial no banco, ... */" />
+            <marker date="1559173093086" expanded="true" signature="688:849" ph="/* Outra forma de descriptografar é fazer uma pesquisa linq ... */" />
+            <marker date="1559173093086" expanded="true" signature="883:1117" ph="/* Outra forma de descriptografar é receber o texto criptografado ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

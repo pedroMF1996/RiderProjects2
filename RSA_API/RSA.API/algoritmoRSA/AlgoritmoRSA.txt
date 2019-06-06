@@ -1,0 +1,52 @@
+mensagem = RSA
+
+1º escolher dois numeros primos quais quer
+      p = 5
+      q = 7
+      
+      chave de codificação
+      n = p * q;
+      n = 5 * 7;
+      n = 35;
+      
+2º pega o numero representante na tablea ascii de cada letra
+      montando uma sequencia numerica 
+      R = 82
+      S = 83
+      A = 65
+      sequencia = 828365
+      
+      Qebra a sequencia em blocos
+      a regra dessa quebra é que cada bloco deve ser menor que n <- chave de codificação
+      1º - 8 < 35
+      2º - 28 < 35
+      3º - 3 < 35
+      4º - 6 < 35
+      5º - 5 < 35
+
+3º Pegar cada bloco elevar a um mesmo número natural (no caso é 7) e 
+   descubrir qual é o resto na divisão desse número módulo n <- chave de codificação
+      bª = a (mod n)
+      1º - 8 elevado a 7 => (8-35 = 27) => 27 elevado a 7 => (27²)³*(-27) 
+            =>  (729)³*(-27) => 735 é multiplo de 35, (729 - 735 = -6) => (-6)³*(-27)
+            => (-6)²*(-6)*(-27) => (-6)²*(162) => (36)*(162) => 5832 => 5832 % 35 = 22
+            protanto 8 elevado a 7 é congruente a 22 (mod 35)
+            
+      2º - 28 elevado a 7 =>(-7)elevado a 7 => [(-7)²]³*(-7) => 49³*(-7) 
+            => 49 passa o 35 em 14 unidades => (14)³*(-7) => (14)²*(14)*(-7) 
+            => 196*(14)*(-7) => (21)*(14)*(-7) => (294)*(-7) => 14*(-7)  
+            => -98 => 7 (mod 35)
+      3º - 
+      4º -
+      5º -
+      
+Numeros primos de 3 digitos
+101 103 107 109 113 127 131 137 139 149 151 157 163 167 173 179 181 191 193 197 199
+211 223 227 229 233 239 241 251 257 263 269 271 277 281 283 293
+307 311 313 317 331 337 347 349 353 359 367 373 379 383 389 397
+401 409 419 421 431 433 439 443 449 457 461 463 467 479 487 491 499
+503 509 521 523 541 547 557 563 569 571 577 587 593 599
+601 607 613 617 619 631 641 643 647 653 659 661 673 677 683 691
+701 709 719 727 733 739 743 751 757 761 769 773 787 797
+809 811 821 823 827 829 839 853 857 859 863 877 881 883 887
+907 911 919 929 937 941 947 953 967 971 977 983 991 997

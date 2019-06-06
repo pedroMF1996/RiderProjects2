@@ -1,0 +1,9 @@
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\CriandoUmFrameWork\CriandoUmFrameWork\obj\Debug\CriandoUmFrameWork.csprojAssemblyReference.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\CriandoUmFrameWork\CriandoUmFrameWork\obj\Debug\CriandoUmFrameWork.csproj.CoreCompileInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\CriandoUmFrameWork\CriandoUmFrameWork\bin\Debug\CriandoUmFrameWork.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\CriandoUmFrameWork\CriandoUmFrameWork\bin\Debug\CriandoUmFrameWork.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\CriandoUmFrameWork\CriandoUmFrameWork\bin\Debug\AutoRun.dll
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\CriandoUmFrameWork\CriandoUmFrameWork\bin\Debug\AutoRun.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\CriandoUmFrameWork\CriandoUmFrameWork\obj\Debug\CriandoUmFrameWork.csproj.CopyComplete
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\CriandoUmFrameWork\CriandoUmFrameWork\obj\Debug\CriandoUmFrameWork.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\CriandoUmFrameWork\CriandoUmFrameWork\obj\Debug\CriandoUmFrameWork.pdb

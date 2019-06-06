@@ -1,0 +1,6 @@
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\LinqSoftBlue\LinqSoftBlue\bin\Debug\LinqSoftBlue.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\LinqSoftBlue\LinqSoftBlue\bin\Debug\LinqSoftBlue.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\LinqSoftBlue\LinqSoftBlue\obj\Debug\LinqSoftBlue.csprojAssemblyReference.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\LinqSoftBlue\LinqSoftBlue\obj\Debug\LinqSoftBlue.csproj.CoreCompileInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\LinqSoftBlue\LinqSoftBlue\obj\Debug\LinqSoftBlue.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\LinqSoftBlue\LinqSoftBlue\obj\Debug\LinqSoftBlue.pdb

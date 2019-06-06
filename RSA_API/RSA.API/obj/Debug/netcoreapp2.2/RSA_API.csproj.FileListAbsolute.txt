@@ -1,0 +1,15 @@
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\RSA_API\RSA_API\bin\Debug\netcoreapp2.2\RSA_API.dll.config
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\RSA_API\RSA_API\bin\Debug\netcoreapp2.2\RSA_API.deps.json
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\RSA_API\RSA_API\bin\Debug\netcoreapp2.2\RSA_API.runtimeconfig.json
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\RSA_API\RSA_API\bin\Debug\netcoreapp2.2\RSA_API.runtimeconfig.dev.json
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\RSA_API\RSA_API\bin\Debug\netcoreapp2.2\RSA_API.dll
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\RSA_API\RSA_API\bin\Debug\netcoreapp2.2\RSA_API.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\RSA_API\RSA_API\obj\Debug\netcoreapp2.2\RSA_API.csprojAssemblyReference.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\RSA_API\RSA_API\obj\Debug\netcoreapp2.2\RSA_API.csproj.CoreCompileInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\RSA_API\RSA_API\obj\Debug\netcoreapp2.2\RSA_API.RazorAssemblyInfo.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\RSA_API\RSA_API\obj\Debug\netcoreapp2.2\RSA_API.RazorAssemblyInfo.cs
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\RSA_API\RSA_API\obj\Debug\netcoreapp2.2\RSA_API.AssemblyInfoInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\RSA_API\RSA_API\obj\Debug\netcoreapp2.2\RSA_API.AssemblyInfo.cs
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\RSA_API\RSA_API\obj\Debug\netcoreapp2.2\RSA_API.RazorTargetAssemblyInfo.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\RSA_API\RSA_API\obj\Debug\netcoreapp2.2\RSA_API.dll
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\RSA_API\RSA_API\obj\Debug\netcoreapp2.2\RSA_API.pdb

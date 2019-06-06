@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="df2ad468-df6b-433e-9d33-379ec08f9446" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BancoDeDadosADONET/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3855">
+              <caret line="261" column="31" selection-start-line="261" selection-start-column="31" selection-end-line="261" selection-end-column="31" />
+              <folding>
+                <element signature="e#9183#9313#0" expanded="true" />
+                <marker date="1558980941693" expanded="true" signature="0:9181" ph="/* ADO.NET na conexão com banco de dados ... */" />
+                <marker date="1558980941693" expanded="true" signature="9372:16180" ph="{...}" />
+                <marker date="1558980941693" expanded="true" signature="9526:10688" ph="{...}" />
+                <marker date="1558980941693" expanded="true" signature="9818:10678" ph="{...}" />
+                <marker date="1558980941693" expanded="true" signature="9902:10200" ph="/* Produto p = new Produto ... */" />
+                <marker date="1558980941693" expanded="true" signature="10373:10457" ph="{...}" />
+                <marker date="1558980941693" expanded="true" signature="10581:10664" ph="/* Produto p = Find(conn,1); ... */" />
+                <marker date="1558980941693" expanded="true" signature="10746:11667" ph="{...}" />
+                <marker date="1558980941693" expanded="true" signature="10887:11628" ph="{...}" />
+                <marker date="1558980941693" expanded="true" signature="11119:11614" ph="{...}" />
+                <marker date="1558980941693" expanded="true" signature="11158:11596" ph="{...}" />
+                <marker date="1558980941693" expanded="true" signature="11731:12771" ph="{...}" />
+                <marker date="1558980941693" expanded="true" signature="11814:12761" ph="{...}" />
+                <marker date="1558980941693" expanded="true" signature="12251:12747" ph="{...}" />
+                <marker date="1558980941693" expanded="true" signature="12288:12369" ph="{...}" />
+                <marker date="1558980941693" expanded="true" signature="12829:14033" ph="{...}" />
+                <marker date="1558980941693" expanded="true" signature="12912:14023" ph="{...}" />
+                <marker date="1558980941693" expanded="true" signature="14099:15301" ph="{...}" />
+                <marker date="1558980941693" expanded="true" signature="14182:15291" ph="{...}" />
+                <marker date="1558980941693" expanded="true" signature="15346:15658" ph="{...}" />
+                <marker date="1558980941693" expanded="true" signature="15429:15635" ph="{...}" />
+                <marker date="1558980941693" expanded="true" signature="15721:16174" ph="{...}" />
+                <marker date="1558980941693" expanded="true" signature="15804:16164" ph="{...}" />
+                <marker date="1558980941693" expanded="true" signature="16199:16535" ph="{...}" />
+                <marker date="1558980941693" expanded="true" signature="16422:16529" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BancoDeDadosADONET/App.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="137" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="137" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/BancoDeDadosADONET/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BancoDeDadosADONET/App.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/ABB7B207-6706-4061-AE9D-2A3062184499/7e/64494c73/System.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/BancoDeDadosADONET/App.config" />
+        <option value="$PROJECT_DIR$/BancoDeDadosADONET/Program.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlserver" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/BancoDeDadosADONET/bin/Debug/BancoDeDadosADONET.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BancoDeDadosADONET/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/BancoDeDadosADONET/BancoDeDadosADONET.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.6.1" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df2ad468-df6b-433e-9d33-379ec08f9446" name="Default Changelist" comment="" />
+      <created>1558730510200</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558730510200</updated>
+      <workItem from="1558730511474" duration="4403000" />
+      <workItem from="1558742068465" duration="593000" />
+      <workItem from="1558807520787" duration="8645000" />
+      <workItem from="1558900157470" duration="2124000" />
+      <workItem from="1558961033295" duration="2678000" />
+      <workItem from="1558979101422" duration="3281000" />
+      <workItem from="1559133755233" duration="48000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="21772000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25869894" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3290735" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="TeamCity" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" weight="0.3290735" />
+      <window_info anchor="bottom" id="Build" order="16" weight="0.3290735" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/ABB7B207-6706-4061-AE9D-2A3062184499/7e/64494c73/System.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BancoDeDadosADONET/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3855">
+          <caret line="261" column="31" selection-start-line="261" selection-start-column="31" selection-end-line="261" selection-end-column="31" />
+          <folding>
+            <element signature="e#9183#9313#0" expanded="true" />
+            <marker date="1558980941693" expanded="true" signature="0:9181" ph="/* ADO.NET na conexão com banco de dados ... */" />
+            <marker date="1558980941693" expanded="true" signature="9372:16180" ph="{...}" />
+            <marker date="1558980941693" expanded="true" signature="9526:10688" ph="{...}" />
+            <marker date="1558980941693" expanded="true" signature="9818:10678" ph="{...}" />
+            <marker date="1558980941693" expanded="true" signature="9902:10200" ph="/* Produto p = new Produto ... */" />
+            <marker date="1558980941693" expanded="true" signature="10373:10457" ph="{...}" />
+            <marker date="1558980941693" expanded="true" signature="10581:10664" ph="/* Produto p = Find(conn,1); ... */" />
+            <marker date="1558980941693" expanded="true" signature="10746:11667" ph="{...}" />
+            <marker date="1558980941693" expanded="true" signature="10887:11628" ph="{...}" />
+            <marker date="1558980941693" expanded="true" signature="11119:11614" ph="{...}" />
+            <marker date="1558980941693" expanded="true" signature="11158:11596" ph="{...}" />
+            <marker date="1558980941693" expanded="true" signature="11731:12771" ph="{...}" />
+            <marker date="1558980941693" expanded="true" signature="11814:12761" ph="{...}" />
+            <marker date="1558980941693" expanded="true" signature="12251:12747" ph="{...}" />
+            <marker date="1558980941693" expanded="true" signature="12288:12369" ph="{...}" />
+            <marker date="1558980941693" expanded="true" signature="12829:14033" ph="{...}" />
+            <marker date="1558980941693" expanded="true" signature="12912:14023" ph="{...}" />
+            <marker date="1558980941693" expanded="true" signature="14099:15301" ph="{...}" />
+            <marker date="1558980941693" expanded="true" signature="14182:15291" ph="{...}" />
+            <marker date="1558980941693" expanded="true" signature="15346:15658" ph="{...}" />
+            <marker date="1558980941693" expanded="true" signature="15429:15635" ph="{...}" />
+            <marker date="1558980941693" expanded="true" signature="15721:16174" ph="{...}" />
+            <marker date="1558980941693" expanded="true" signature="15804:16164" ph="{...}" />
+            <marker date="1558980941693" expanded="true" signature="16199:16535" ph="{...}" />
+            <marker date="1558980941693" expanded="true" signature="16422:16529" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BancoDeDadosADONET/App.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="137" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="137" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

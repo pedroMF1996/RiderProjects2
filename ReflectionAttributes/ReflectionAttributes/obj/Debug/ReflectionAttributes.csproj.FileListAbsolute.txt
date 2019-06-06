@@ -1,0 +1,6 @@
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\ReflectionAttributes\ReflectionAttributes\bin\Debug\ReflectionAttributes.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\ReflectionAttributes\ReflectionAttributes\bin\Debug\ReflectionAttributes.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\ReflectionAttributes\ReflectionAttributes\obj\Debug\ReflectionAttributes.csprojAssemblyReference.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\ReflectionAttributes\ReflectionAttributes\obj\Debug\ReflectionAttributes.csproj.CoreCompileInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\ReflectionAttributes\ReflectionAttributes\obj\Debug\ReflectionAttributes.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\ReflectionAttributes\ReflectionAttributes\obj\Debug\ReflectionAttributes.pdb

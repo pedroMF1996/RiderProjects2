@@ -1,0 +1,5 @@
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\TrabalhoFinalProgramacaoLinear\TrabalhoFinalProgramacaoLinear\glpk-4.65\swig\src\main\java\org\gnu\glpk\GlpkCallback.java
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\TrabalhoFinalProgramacaoLinear\TrabalhoFinalProgramacaoLinear\glpk-4.65\swig\src\main\java\org\gnu\glpk\GlpkCallbackListener.java
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\TrabalhoFinalProgramacaoLinear\TrabalhoFinalProgramacaoLinear\glpk-4.65\swig\src\main\java\org\gnu\glpk\GlpkException.java
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\TrabalhoFinalProgramacaoLinear\TrabalhoFinalProgramacaoLinear\glpk-4.65\swig\src\main\java\org\gnu\glpk\GlpkTerminal.java
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\TrabalhoFinalProgramacaoLinear\TrabalhoFinalProgramacaoLinear\glpk-4.65\swig\src\main\java\org\gnu\glpk\GlpkTerminalListener.java

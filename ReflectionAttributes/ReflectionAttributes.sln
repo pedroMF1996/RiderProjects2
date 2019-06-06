@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionAttributes", "ReflectionAttributes\ReflectionAttributes.csproj", "{44117598-E2C1-4D92-9D4A-3C46DDCAFCCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44117598-E2C1-4D92-9D4A-3C46DDCAFCCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44117598-E2C1-4D92-9D4A-3C46DDCAFCCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44117598-E2C1-4D92-9D4A-3C46DDCAFCCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44117598-E2C1-4D92-9D4A-3C46DDCAFCCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

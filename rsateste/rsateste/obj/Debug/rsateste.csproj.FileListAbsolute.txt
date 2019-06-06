@@ -1,0 +1,6 @@
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\rsateste\rsateste\bin\Debug\rsateste.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\rsateste\rsateste\bin\Debug\rsateste.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\rsateste\rsateste\obj\Debug\rsateste.csprojAssemblyReference.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\rsateste\rsateste\obj\Debug\rsateste.csproj.CoreCompileInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\rsateste\rsateste\obj\Debug\rsateste.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\rsateste\rsateste\obj\Debug\rsateste.pdb

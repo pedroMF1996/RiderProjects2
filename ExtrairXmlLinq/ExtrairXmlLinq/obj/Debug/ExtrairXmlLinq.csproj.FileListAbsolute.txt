@@ -1,0 +1,6 @@
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\ExtrairXmlLinq\ExtrairXmlLinq\bin\Debug\ExtrairXmlLinq.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\ExtrairXmlLinq\ExtrairXmlLinq\bin\Debug\ExtrairXmlLinq.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\ExtrairXmlLinq\ExtrairXmlLinq\obj\Debug\ExtrairXmlLinq.csprojAssemblyReference.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\ExtrairXmlLinq\ExtrairXmlLinq\obj\Debug\ExtrairXmlLinq.csproj.CoreCompileInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\ExtrairXmlLinq\ExtrairXmlLinq\obj\Debug\ExtrairXmlLinq.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\ExtrairXmlLinq\ExtrairXmlLinq\obj\Debug\ExtrairXmlLinq.pdb

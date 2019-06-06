@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSA.API", "RSA.API\RSA.API.csproj", "{EEB0751E-039C-4BDE-9E91-9DB155D44F3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSAlib", "RSAlib\RSAlib.csproj", "{2DF429E7-6C02-4F00-8453-D9928CCD090A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSA.Domain", "RSA.Domain\RSA.Domain.csproj", "{ECAD67C5-D918-4C5D-938C-6B454B5F2907}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSA.Infra", "RSA.Infra\RSA.Infra.csproj", "{AC4B2E13-4488-4395-8BE6-7F4A190FD87F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEB0751E-039C-4BDE-9E91-9DB155D44F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEB0751E-039C-4BDE-9E91-9DB155D44F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEB0751E-039C-4BDE-9E91-9DB155D44F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEB0751E-039C-4BDE-9E91-9DB155D44F3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DF429E7-6C02-4F00-8453-D9928CCD090A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DF429E7-6C02-4F00-8453-D9928CCD090A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DF429E7-6C02-4F00-8453-D9928CCD090A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DF429E7-6C02-4F00-8453-D9928CCD090A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECAD67C5-D918-4C5D-938C-6B454B5F2907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECAD67C5-D918-4C5D-938C-6B454B5F2907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECAD67C5-D918-4C5D-938C-6B454B5F2907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECAD67C5-D918-4C5D-938C-6B454B5F2907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC4B2E13-4488-4395-8BE6-7F4A190FD87F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC4B2E13-4488-4395-8BE6-7F4A190FD87F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC4B2E13-4488-4395-8BE6-7F4A190FD87F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC4B2E13-4488-4395-8BE6-7F4A190FD87F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

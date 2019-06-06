@@ -1,0 +1,11 @@
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\OperadoresCasting\OperadoresCasting\bin\Debug\netcoreapp2.2\OperadoresCasting.deps.json
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\OperadoresCasting\OperadoresCasting\bin\Debug\netcoreapp2.2\OperadoresCasting.runtimeconfig.json
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\OperadoresCasting\OperadoresCasting\bin\Debug\netcoreapp2.2\OperadoresCasting.runtimeconfig.dev.json
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\OperadoresCasting\OperadoresCasting\bin\Debug\netcoreapp2.2\OperadoresCasting.dll
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\OperadoresCasting\OperadoresCasting\bin\Debug\netcoreapp2.2\OperadoresCasting.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\OperadoresCasting\OperadoresCasting\obj\Debug\netcoreapp2.2\OperadoresCasting.csprojAssemblyReference.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\OperadoresCasting\OperadoresCasting\obj\Debug\netcoreapp2.2\OperadoresCasting.csproj.CoreCompileInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\OperadoresCasting\OperadoresCasting\obj\Debug\netcoreapp2.2\OperadoresCasting.AssemblyInfoInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\OperadoresCasting\OperadoresCasting\obj\Debug\netcoreapp2.2\OperadoresCasting.AssemblyInfo.cs
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\OperadoresCasting\OperadoresCasting\obj\Debug\netcoreapp2.2\OperadoresCasting.dll
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\OperadoresCasting\OperadoresCasting\obj\Debug\netcoreapp2.2\OperadoresCasting.pdb

@@ -1,0 +1,6 @@
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\ExercicioProposto1.2\ExercicioProposto1.2\bin\Debug\ExercicioProposto1._2.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\ExercicioProposto1.2\ExercicioProposto1.2\bin\Debug\ExercicioProposto1._2.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\ExercicioProposto1.2\ExercicioProposto1.2\obj\Debug\ExercicioProposto1.2.csprojAssemblyReference.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\ExercicioProposto1.2\ExercicioProposto1.2\obj\Debug\ExercicioProposto1.2.csproj.CoreCompileInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\ExercicioProposto1.2\ExercicioProposto1.2\obj\Debug\ExercicioProposto1._2.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\ExercicioProposto1.2\ExercicioProposto1.2\obj\Debug\ExercicioProposto1._2.pdb

@@ -1,0 +1,6 @@
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\SoftblueLib2\SoftblueLib2\bin\Debug\SoftblueLib2.dll
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\SoftblueLib2\SoftblueLib2\bin\Debug\SoftblueLib2.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\SoftblueLib2\SoftblueLib2\obj\Debug\SoftblueLib2.csprojAssemblyReference.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\SoftblueLib2\SoftblueLib2\obj\Debug\SoftblueLib2.csproj.CoreCompileInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\SoftblueLib2\SoftblueLib2\obj\Debug\SoftblueLib2.dll
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\SoftblueLib2\SoftblueLib2\obj\Debug\SoftblueLib2.pdb

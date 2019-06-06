@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\PEDROMARTINSFALLEIRO\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\PEDROMARTINSFALLEIRO\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_AutoRun.994170669.00" t="ExcludeRecursive" />
+    <e p="C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\AutoRun" t="IncludeFlat">
+      <e p="AutoRun" t="IncludeRecursive">
+        <e p="AutoRun.csproj" t="IncludeRecursive" />
+        <e p="AutoRunner.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Result.cs" t="Include" />
+        <e p="RunClassAttribute.cs" t="Include" />
+        <e p="RunMethodAttribute.cs" t="Include" />
+      </e>
+      <e p="AutoRun.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

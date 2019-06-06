@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="RSA.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\..\source\repos\ApiRsa\RSAlib\bin\Debug\netcoreapp2.2\RSA.Domain.dll</HintPath>
+      </Reference>
+      <Reference Include="RSAlib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\..\source\repos\ApiRsa\RSAlib\bin\Debug\netcoreapp2.2\RSAlib.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="CSharp-easy-RSA-PEM\CSharp-easy-RSA-PEM.csproj" />
+      <Content Include="Load-Encrypt-Decrypt-Save\Load-Encrypt-Decrypt-Save.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Core.Cryptography.Rsa.Pem" Version="1.0.0" />
+      <PackageReference Include="EasyEncrypt.RSA" Version="1.0.1.2" />
+    </ItemGroup>
+
+</Project>

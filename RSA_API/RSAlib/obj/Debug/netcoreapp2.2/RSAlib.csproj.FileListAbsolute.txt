@@ -1,0 +1,9 @@
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\RSA_API\RSAlib\bin\Debug\netcoreapp2.2\RSAlib.deps.json
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\RSA_API\RSAlib\bin\Debug\netcoreapp2.2\RSAlib.dll
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\RSA_API\RSAlib\bin\Debug\netcoreapp2.2\RSAlib.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\RSA_API\RSAlib\obj\Debug\netcoreapp2.2\RSAlib.csprojAssemblyReference.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\RSA_API\RSAlib\obj\Debug\netcoreapp2.2\RSAlib.csproj.CoreCompileInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\RSA_API\RSAlib\obj\Debug\netcoreapp2.2\RSAlib.AssemblyInfoInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\RSA_API\RSAlib\obj\Debug\netcoreapp2.2\RSAlib.AssemblyInfo.cs
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\RSA_API\RSAlib\obj\Debug\netcoreapp2.2\RSAlib.dll
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\RSA_API\RSAlib\obj\Debug\netcoreapp2.2\RSAlib.pdb

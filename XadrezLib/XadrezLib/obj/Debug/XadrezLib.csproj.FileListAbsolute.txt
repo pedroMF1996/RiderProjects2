@@ -1,0 +1,9 @@
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\XadrezLib\XadrezLib\bin\Debug\XadrezLib.dll
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\XadrezLib\XadrezLib\bin\Debug\XadrezLib.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\XadrezLib\XadrezLib\bin\Debug\Tabuleiro.dll
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\XadrezLib\XadrezLib\bin\Debug\Tabuleiro.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\XadrezLib\XadrezLib\obj\Debug\XadrezLib.csprojAssemblyReference.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\XadrezLib\XadrezLib\obj\Debug\XadrezLib.csproj.CoreCompileInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\XadrezLib\XadrezLib\obj\Debug\XadrezLib.csproj.CopyComplete
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\XadrezLib\XadrezLib\obj\Debug\XadrezLib.dll
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\XadrezLib\XadrezLib\obj\Debug\XadrezLib.pdb

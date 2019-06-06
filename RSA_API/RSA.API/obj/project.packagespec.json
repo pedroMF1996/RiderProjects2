@@ -1,0 +1,75 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\PEDROMARTINSFALLEIRO\\RiderProjects\\RSA_API\\RSA.API\\RSA.API.csproj",
+    "projectName": "RSA.API",
+    "projectPath": "C:\\Users\\PEDROMARTINSFALLEIRO\\RiderProjects\\RSA_API\\RSA.API\\RSA.API.csproj",
+    "outputPath": "C:\\Users\\PEDROMARTINSFALLEIRO\\RiderProjects\\RSA_API\\RSA.API\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "C:\\Users\\PEDROMARTINSFALLEIRO\\RiderProjects\\RSA_API\\RSAlib\\RSAlib.csproj": {
+            "projectPath": "C:\\Users\\PEDROMARTINSFALLEIRO\\RiderProjects\\RSA_API\\RSAlib\\RSAlib.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "EntityFramework": {
+          "target": "Package",
+          "version": "[6.2.0, )"
+        },
+        "Microsoft.AspNet.WebApi.Core": {
+          "target": "Package",
+          "version": "[5.2.7, )"
+        },
+        "Microsoft.AspNetCore": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.AspNetCore.HttpsPolicy": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.AspNetCore.Mvc": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[2.2.4, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
