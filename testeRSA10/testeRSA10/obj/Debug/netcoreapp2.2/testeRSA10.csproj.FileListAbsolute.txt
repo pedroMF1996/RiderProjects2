@@ -2,3 +2,10 @@ C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\testeRSA10\testeRSA10\obj\Debug\netc
 C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\testeRSA10\testeRSA10\obj\Debug\netcoreapp2.2\testeRSA10.csproj.CoreCompileInputs.cache
 C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\testeRSA10\testeRSA10\obj\Debug\netcoreapp2.2\testeRSA10.AssemblyInfoInputs.cache
 C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\testeRSA10\testeRSA10\obj\Debug\netcoreapp2.2\testeRSA10.AssemblyInfo.cs
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\testeRSA10\testeRSA10\bin\Debug\netcoreapp2.2\testeRSA10.deps.json
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\testeRSA10\testeRSA10\bin\Debug\netcoreapp2.2\testeRSA10.runtimeconfig.json
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\testeRSA10\testeRSA10\bin\Debug\netcoreapp2.2\testeRSA10.runtimeconfig.dev.json
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\testeRSA10\testeRSA10\bin\Debug\netcoreapp2.2\testeRSA10.dll
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\testeRSA10\testeRSA10\bin\Debug\netcoreapp2.2\testeRSA10.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\testeRSA10\testeRSA10\obj\Debug\netcoreapp2.2\testeRSA10.dll
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\testeRSA10\testeRSA10\obj\Debug\netcoreapp2.2\testeRSA10.pdb

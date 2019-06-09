@@ -8,20 +8,6 @@
       <e p="packages" t="ExcludeRecursive" />
       <e p="testeRSA10" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
-        <e p="CSharp-easy-RSA-PEM" t="Include">
-          <e p="AsnKeyBuilder.cs" t="Include" />
-          <e p="AsnKeyParser.cs" t="Include" />
-          <e p="BerDecodeError.cs" t="Include" />
-          <e p="BigInteger.cs" t="Include" />
-          <e p="CSharp-easy-RSA-PEM.csproj" t="Include" />
-          <e p="enums.cs" t="Include" />
-          <e p="Helpers.cs" t="Include" />
-          <e p="main.cs" t="Include" />
-          <e p="Properties" t="Include">
-            <e p="AssemblyInfo.cs" t="Include" />
-          </e>
-          <e p="RSAParameterTraits.cs" t="Include" />
-        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.2" t="Include">
