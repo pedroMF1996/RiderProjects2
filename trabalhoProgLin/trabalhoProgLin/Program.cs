@@ -1,0 +1,249 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Net.Sockets;
+using System.Numerics;
+
+namespace trabalhoProgLin
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var mat = new List<int>();
+            
+            var pc1 = new List<int>();
+            var pc3 = new List<int>();
+            var pc4 = new List<int>();
+            var pc11 = new List<int>();
+            var pc16 = new List<int>();
+            var pc18 = new List<int>();
+            var pc20 = new List<int>();
+            
+            
+            try
+            {
+                checked
+                {
+                    using (var sr = new StreamReader(@"C:\Users\PEDROMARTINSFALLEIRO\Downloads\dados.txt"))
+                    {
+                        List<int> i = new List<int>();
+                        while (!sr.EndOfStream)
+                        {
+                            string s = sr.ReadLine();
+                            foreach (var v in s.Split(' '))
+                            {
+                                i.Add(int.Parse(v));
+                            }
+                            mat.AddRange(i);
+                            i.Clear();
+                        }
+                    }
+
+                    int cont = 0;
+                    foreach (var i in mat)
+                    {
+                        cont = cont >= 20 ? 0 : cont;
+                        Console.Write(cont%20==0 ? $"\n {i.ToString()} ":$" {i.ToString()} ");
+                        cont++;
+                    }
+
+                    var q = mat.Count;
+                    for (int i = 0; i < q; i++)
+                    {
+                        if (i>= 20 && i<40)//caso 1
+                        {
+                            pc1.Add(mat[i]);
+                        }
+                        else 
+                        if (i>= 60 && i<80)//caso 3
+                        {
+                            pc3.Add(mat[i]);
+                        }
+                        else 
+                        if (i>= 80 && i<100)//caso 4
+                        {
+                            pc4.Add(mat[i]);
+                        }
+                        else 
+                        if (i>= 220 && i<240)//caso 11
+                        {
+                            pc11.Add(mat[i]);
+                        }
+                        else 
+                        if (i>= 320 && i<340)//caso 16
+                        {
+                            pc16.Add(mat[i]);
+                        }
+                        else 
+                        if (i>= 360 && i<380)//caso 18
+                        {
+                            pc18.Add(mat[i]);
+                        }
+                        else 
+                        if (i>= 400 && i<420)//caso 20
+                        {
+                            pc20.Add(mat[i]);
+                        }
+                    }
+
+                    Action c1 = () =>
+                    {
+                        Console.WriteLine("\n\n Caso 1:");
+                        foreach (var i in pc1)
+                        {
+                            Console.Write($"{i.ToString()} ");
+                        }
+                    };
+                    c1();
+
+
+                    Action c3 = () =>
+                    {
+                        Console.WriteLine("\n\n Caso 3:");
+                        foreach (var i in pc3)
+                        {
+                            Console.Write($"{i.ToString()} ");
+                        }
+                    };
+                    c3();
+
+                    Action c4 = () =>
+                    {
+                        Console.WriteLine("\n\n Caso 4:");
+                        foreach (var i in pc4)
+                        {
+                            Console.Write($"{i.ToString()} ");
+                        }
+                    };
+                    c4();
+                    
+                    Console.WriteLine("\n\n Caso 11:");
+                    foreach (var i in pc11)
+                    {
+                        Console.Write($"{i.ToString()} ");
+                    }
+                    
+                    Console.WriteLine("\n\n Caso 16:");
+                    foreach (var i in pc16)
+                    {
+                        Console.Write($"{i.ToString()} ");
+                    }
+                    
+                    Console.WriteLine("\n\n Caso 18:");
+                    foreach (var i in pc18)
+                    {
+                        Console.Write($"{i.ToString()} ");
+                    }
+                    
+                    Console.WriteLine("\n\n Caso 20:");
+                    foreach (var i in pc20)
+                    {
+                        Console.Write($"{i.ToString()} ");
+                    }
+                    Console.WriteLine("\n\n");
+
+
+                    var maiorC1 = pc1.Max();
+                    var indcMaiorC1 = pc1.FindIndex(x=>x==maiorC1);
+                    Console.WriteLine($"caso 1 : value: {maiorC1.ToString()} - indice: {indcMaiorC1.ToString()}");
+                    
+                    
+                    var maiorC3 = pc3.Max();
+                    var indcMaiorC3 = pc3.FindIndex(x=>x==maiorC3);
+                    Console.WriteLine($"caso 3 : value: {maiorC3.ToString()} - indice: {indcMaiorC3.ToString()}");
+                    
+                    
+                    
+                    var maiorC4 = pc4.Max();
+                    var indcMaiorC4 = pc4.FindIndex(x=>x==maiorC4);
+                    Console.WriteLine($"caso 4 : value: {maiorC4.ToString()} - indice: {indcMaiorC4.ToString()}");
+                    
+                    
+                    var maiorC11 = pc11.Max();
+                    var indcMaiorC11 = pc11.FindIndex(x=>x==maiorC11);
+                    Console.WriteLine($"caso 11 : value: {maiorC11.ToString()} - indice: {indcMaiorC11.ToString()}");
+                    
+                    var maiorC16 = pc16.Max();
+                    var indcMaiorC16 = pc16.FindIndex(x=>x==maiorC16);
+                    Console.WriteLine($"caso 16 : value: {maiorC16.ToString()} - indice: {indcMaiorC16.ToString()}");
+                    
+                    var maiorC18 = pc18.Max();
+                    var indcMaiorC18 = pc18.FindIndex(x=>x==maiorC18);
+                    Console.WriteLine($"caso 18 : value: {maiorC18.ToString()} - indice: {indcMaiorC18.ToString()}");
+                    
+                    var maiorC20 = pc20.Max();
+                    var indcMaiorC20 = pc20.FindIndex(x=>x==maiorC20);
+                    Console.WriteLine($"caso 20 : value: {maiorC20.ToString()} - indice: {indcMaiorC20.ToString()}\n\n");
+                    //tenho que de alguma forma montar uma forma dinamica de comparar todos os valores de cada lista
+                    //e retornar qual tme os menores valores
+
+
+                    Console.WriteLine("cidades centro de distribuição: 1, 3, 4");
+                    c1();
+                    c3();
+                    c4();
+
+                    List<int> clientesDaC1 = new List<int>();
+                    List<int> clientesDaC3 = new List<int>();
+                    List<int> clientesDaC4 = new List<int>();
+                    
+                    for (int i = 0; i < 20; i++)
+                    {
+                        int x1 = pc1[i], 
+                            x2 = pc3[i], 
+                            x3 = pc4[i];
+                        
+                        if (x1 <= x2 || x1 <= x3)
+                        {
+                            if (x1 < x2)
+                            {
+                                clientesDaC1.Add(i);
+                            }
+                            else
+                            if (x1 < x3)
+                            {
+                                clientesDaC1.Add(i);
+                            }
+                            else
+                            {
+                                clientesDaC1.Add(i);
+                            }
+                        }
+                        else if (x2 <= x3)
+                        {
+                            clientesDaC3.Add(i);
+                        }
+                        else
+                        {
+                            clientesDaC4.Add(i);
+                        }
+                    }
+
+                    Console.WriteLine("\n\nClientes da c1: ");
+                    foreach (int i in clientesDaC1)
+                    {
+                        Console.Write($" {i.ToString()} ");
+                    }
+
+                    Console.WriteLine("\n\nClientes da c3: ");
+                    foreach (int i in clientesDaC3)
+                    {
+                        Console.Write($" {i.ToString()} ");
+                    }
+
+                    Console.WriteLine("\n\nClientes da c4: ");
+                    foreach (int i in clientesDaC4)
+                    {
+                        Console.Write($" {i.ToString()} ");
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
+    }
+}

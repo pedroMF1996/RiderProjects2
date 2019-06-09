@@ -1,0 +1,11 @@
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\trabalhoProgLin\trabalhoProgLin\bin\Debug\netcoreapp2.2\trabalhoProgLin.deps.json
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\trabalhoProgLin\trabalhoProgLin\bin\Debug\netcoreapp2.2\trabalhoProgLin.runtimeconfig.json
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\trabalhoProgLin\trabalhoProgLin\bin\Debug\netcoreapp2.2\trabalhoProgLin.runtimeconfig.dev.json
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\trabalhoProgLin\trabalhoProgLin\bin\Debug\netcoreapp2.2\trabalhoProgLin.dll
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\trabalhoProgLin\trabalhoProgLin\bin\Debug\netcoreapp2.2\trabalhoProgLin.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\trabalhoProgLin\trabalhoProgLin\obj\Debug\netcoreapp2.2\trabalhoProgLin.csprojAssemblyReference.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\trabalhoProgLin\trabalhoProgLin\obj\Debug\netcoreapp2.2\trabalhoProgLin.csproj.CoreCompileInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\trabalhoProgLin\trabalhoProgLin\obj\Debug\netcoreapp2.2\trabalhoProgLin.AssemblyInfoInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\trabalhoProgLin\trabalhoProgLin\obj\Debug\netcoreapp2.2\trabalhoProgLin.AssemblyInfo.cs
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\trabalhoProgLin\trabalhoProgLin\obj\Debug\netcoreapp2.2\trabalhoProgLin.dll
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\trabalhoProgLin\trabalhoProgLin\obj\Debug\netcoreapp2.2\trabalhoProgLin.pdb
