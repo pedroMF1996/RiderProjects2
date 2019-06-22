@@ -1,0 +1,6 @@
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\TreinarLogica2\TreinarLogica2\bin\Debug\TreinarLogica2.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\TreinarLogica2\TreinarLogica2\bin\Debug\TreinarLogica2.pdb
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\TreinarLogica2\TreinarLogica2\obj\Debug\TreinarLogica2.csprojAssemblyReference.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\TreinarLogica2\TreinarLogica2\obj\Debug\TreinarLogica2.csproj.CoreCompileInputs.cache
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\TreinarLogica2\TreinarLogica2\obj\Debug\TreinarLogica2.exe
+C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\TreinarLogica2\TreinarLogica2\obj\Debug\TreinarLogica2.pdb
