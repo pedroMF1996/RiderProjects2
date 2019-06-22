@@ -1,25 +1,27 @@
+using NUnit.Framework;
 using Tabuleiro;
 
 namespace XadrezLib
 {
-    public class Dama:Peca
+    public sealed class Dama:Peca
     {
         public Dama(Cor cor, Tabuleiro.Tabuleiro tab) : base(cor, tab)
         {
         }
 
-        public sealed override string ToString() 
+        public override string ToString() 
         {
             return "D";
         }
-
+        [Description("Função responsável por retornar se a peça pode ou não se mover")]
         private bool podeMover(Posicao pos) 
         {
             Peca p = tab.Peca(pos);
             return p == null || p.cor != cor;
         }
 
-        public sealed override bool[,] movimentosPossiveis() 
+        [Description("Função herdada da classe pai Peça, responsável por retornar os movimentos possiveis da subclasse Dama")]
+        public override bool[,] movimentosPossiveis() 
         {
             bool[,] mat = new bool[tab.Linhas, tab.Colunas];
 
@@ -27,7 +29,7 @@ namespace XadrezLib
 
             // esquerda
             pos.definirValores(posicao.linha, posicao.coluna - 1);
-            while (tab.TestarPosicao(pos) && podeMover(pos)) 
+            while (TestesTabuleiro.PosicaoValida(pos,tab) && podeMover(pos)) 
             {
                 mat[pos.linha, pos.coluna] = true;
                 if (tab.Peca(pos) != null && tab.Peca(pos).cor != cor) 
@@ -39,7 +41,7 @@ namespace XadrezLib
 
             // direita
             pos.definirValores(posicao.linha, posicao.coluna + 1);
-            while (tab.TestarPosicao(pos) && podeMover(pos)) 
+            while (TestesTabuleiro.PosicaoValida(pos,tab) && podeMover(pos)) 
             {
                 mat[pos.linha, pos.coluna] = true;
                 if (tab.Peca(pos) != null && tab.Peca(pos).cor != cor) 
@@ -51,7 +53,7 @@ namespace XadrezLib
 
             // acima
             pos.definirValores(posicao.linha - 1, posicao.coluna);
-            while (tab.TestarPosicao(pos) && podeMover(pos)) 
+            while (TestesTabuleiro.PosicaoValida(pos,tab) && podeMover(pos)) 
             {
                 mat[pos.linha, pos.coluna] = true;
                 if (tab.Peca(pos) != null && tab.Peca(pos).cor != cor) 
@@ -63,7 +65,7 @@ namespace XadrezLib
 
             // abaixo
             pos.definirValores(posicao.linha + 1, posicao.coluna);
-            while (tab.TestarPosicao(pos) && podeMover(pos)) 
+            while (TestesTabuleiro.PosicaoValida(pos,tab) && podeMover(pos)) 
             {
                 mat[pos.linha, pos.coluna] = true;
                 if (tab.Peca(pos) != null && tab.Peca(pos).cor != cor) 
@@ -75,7 +77,7 @@ namespace XadrezLib
 
             // NO
             pos.definirValores(posicao.linha - 1, posicao.coluna - 1);
-            while (tab.TestarPosicao(pos) && podeMover(pos)) 
+            while (TestesTabuleiro.PosicaoValida(pos,tab) && podeMover(pos)) 
             {
                 mat[pos.linha, pos.coluna] = true;
                 if (tab.Peca(pos) != null && tab.Peca(pos).cor != cor) 
@@ -87,7 +89,7 @@ namespace XadrezLib
 
             // NE
             pos.definirValores(posicao.linha - 1, posicao.coluna + 1);
-            while (tab.TestarPosicao(pos) && podeMover(pos)) 
+            while (TestesTabuleiro.PosicaoValida(pos,tab) && podeMover(pos)) 
             {
                 mat[pos.linha, pos.coluna] = true;
                 if (tab.Peca(pos) != null && tab.Peca(pos).cor != cor) 
@@ -99,7 +101,7 @@ namespace XadrezLib
 
             // SE
             pos.definirValores(posicao.linha + 1, posicao.coluna + 1);
-            while (tab.TestarPosicao(pos) && podeMover(pos)) 
+            while (TestesTabuleiro.PosicaoValida(pos,tab) && podeMover(pos)) 
             {
                 mat[pos.linha, pos.coluna] = true;
                 if (tab.Peca(pos) != null && tab.Peca(pos).cor != cor) 
@@ -111,7 +113,7 @@ namespace XadrezLib
 
             // SO
             pos.definirValores(posicao.linha + 1, posicao.coluna - 1);
-            while (tab.TestarPosicao(pos) && podeMover(pos)) 
+            while (TestesTabuleiro.PosicaoValida(pos,tab) && podeMover(pos)) 
             {
                 mat[pos.linha, pos.coluna] = true;
                 if (tab.Peca(pos) != null && tab.Peca(pos).cor != cor) 

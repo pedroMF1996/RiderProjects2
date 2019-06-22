@@ -23,7 +23,64 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57e1cdee-676c-4644-84e0-31266a3d82a0" name="Default Changelist" comment="" />
+    <list default="true" id="57e1cdee-676c-4644-84e0-31266a3d82a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CLIRefatoracaoDoJogoDeXadrez/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/InterfaceGrafica/Jogo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/InterfaceGrafica/Tela.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tabuleiro/.idea/.idea.Tabuleiro/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tabuleiro/.idea/.idea.Tabuleiro/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tabuleiro/Tabuleiro/TestesTabuleiro.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../XadrezLib/XadrezLib/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CLIRefatoracaoDoJogoDeXadrez/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CLIRefatoracaoDoJogoDeXadrez/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CLIRefatoracaoDoJogoDeXadrez/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CLIRefatoracaoDoJogoDeXadrez/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/CLIRefatoracaoDoJogoDeXadrez.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/CLIRefatoracaoDoJogoDeXadrez.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/bin/Debug/CLIRefatoracaoDoJogoDeXadrez.exe" beforeDir="false" afterPath="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/bin/Debug/CLIRefatoracaoDoJogoDeXadrez.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/bin/Debug/CLIRefatoracaoDoJogoDeXadrez.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/bin/Debug/CLIRefatoracaoDoJogoDeXadrez.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/bin/Debug/Tabuleiro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/bin/Debug/Tabuleiro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/bin/Debug/Tabuleiro.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/bin/Debug/Tabuleiro.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/obj/Debug/CLIRefatoracaoDoJogoDeXadrez.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/obj/Debug/CLIRefatoracaoDoJogoDeXadrez.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/obj/Debug/CLIRefatoracaoDoJogoDeXadrez.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/obj/Debug/CLIRefatoracaoDoJogoDeXadrez.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/obj/Debug/CLIRefatoracaoDoJogoDeXadrez.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/obj/Debug/CLIRefatoracaoDoJogoDeXadrez.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/obj/Debug/CLIRefatoracaoDoJogoDeXadrez.exe" beforeDir="false" afterPath="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/obj/Debug/CLIRefatoracaoDoJogoDeXadrez.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/obj/Debug/CLIRefatoracaoDoJogoDeXadrez.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/obj/Debug/CLIRefatoracaoDoJogoDeXadrez.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tabuleiro/.idea/.idea.Tabuleiro/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tabuleiro/.idea/.idea.Tabuleiro/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tabuleiro/.idea/.idea.Tabuleiro/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tabuleiro/.idea/.idea.Tabuleiro/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tabuleiro/Tabuleiro/Peca.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Tabuleiro/Tabuleiro/Peca.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tabuleiro/Tabuleiro/Tabuleiro.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Tabuleiro/Tabuleiro/Tabuleiro.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tabuleiro/Tabuleiro/Tabuleiro.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Tabuleiro/Tabuleiro/Tabuleiro.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tabuleiro/Tabuleiro/TabuleiroException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Tabuleiro/Tabuleiro/TabuleiroException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tabuleiro/Tabuleiro/bin/Debug/Tabuleiro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Tabuleiro/Tabuleiro/bin/Debug/Tabuleiro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tabuleiro/Tabuleiro/bin/Debug/Tabuleiro.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Tabuleiro/Tabuleiro/bin/Debug/Tabuleiro.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tabuleiro/Tabuleiro/obj/Debug/Tabuleiro.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Tabuleiro/Tabuleiro/obj/Debug/Tabuleiro.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tabuleiro/Tabuleiro/obj/Debug/Tabuleiro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Tabuleiro/Tabuleiro/obj/Debug/Tabuleiro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tabuleiro/Tabuleiro/obj/Debug/Tabuleiro.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Tabuleiro/Tabuleiro/obj/Debug/Tabuleiro.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XadrezLib/.idea/.idea.XadrezLib/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XadrezLib/.idea/.idea.XadrezLib/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XadrezLib/.idea/.idea.XadrezLib/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../XadrezLib/.idea/.idea.XadrezLib/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XadrezLib/XadrezLib/Bispo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../XadrezLib/XadrezLib/Bispo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XadrezLib/XadrezLib/Cavalo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../XadrezLib/XadrezLib/Cavalo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XadrezLib/XadrezLib/Dama.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../XadrezLib/XadrezLib/Dama.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XadrezLib/XadrezLib/PartidaDeXadrez.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../XadrezLib/XadrezLib/PartidaDeXadrez.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XadrezLib/XadrezLib/Peao.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../XadrezLib/XadrezLib/Peao.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XadrezLib/XadrezLib/Rei.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../XadrezLib/XadrezLib/Rei.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XadrezLib/XadrezLib/TestesPartida.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../XadrezLib/XadrezLib/TestesPartida.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XadrezLib/XadrezLib/Torre.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../XadrezLib/XadrezLib/Torre.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XadrezLib/XadrezLib/XadrezLib.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../XadrezLib/XadrezLib/XadrezLib.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XadrezLib/XadrezLib/bin/Debug/Tabuleiro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../XadrezLib/XadrezLib/bin/Debug/Tabuleiro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XadrezLib/XadrezLib/bin/Debug/Tabuleiro.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../XadrezLib/XadrezLib/bin/Debug/Tabuleiro.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XadrezLib/XadrezLib/bin/Debug/XadrezLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../XadrezLib/XadrezLib/bin/Debug/XadrezLib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XadrezLib/XadrezLib/bin/Debug/XadrezLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../XadrezLib/XadrezLib/bin/Debug/XadrezLib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XadrezLib/XadrezLib/obj/Debug/XadrezLib.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../XadrezLib/XadrezLib/obj/Debug/XadrezLib.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XadrezLib/XadrezLib/obj/Debug/XadrezLib.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../XadrezLib/XadrezLib/obj/Debug/XadrezLib.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XadrezLib/XadrezLib/obj/Debug/XadrezLib.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../XadrezLib/XadrezLib/obj/Debug/XadrezLib.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XadrezLib/XadrezLib/obj/Debug/XadrezLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../XadrezLib/XadrezLib/obj/Debug/XadrezLib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XadrezLib/XadrezLib/obj/Debug/XadrezLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../XadrezLib/XadrezLib/obj/Debug/XadrezLib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalhoProgLin/trabalhoProgLin/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../trabalhoProgLin/trabalhoProgLin/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalhoProgLin/trabalhoProgLin/bin/Debug/netcoreapp2.2/trabalhoProgLin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../trabalhoProgLin/trabalhoProgLin/bin/Debug/netcoreapp2.2/trabalhoProgLin.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalhoProgLin/trabalhoProgLin/bin/Debug/netcoreapp2.2/trabalhoProgLin.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../trabalhoProgLin/trabalhoProgLin/bin/Debug/netcoreapp2.2/trabalhoProgLin.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalhoProgLin/trabalhoProgLin/obj/Debug/netcoreapp2.2/trabalhoProgLin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../trabalhoProgLin/trabalhoProgLin/obj/Debug/netcoreapp2.2/trabalhoProgLin.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trabalhoProgLin/trabalhoProgLin/obj/Debug/netcoreapp2.2/trabalhoProgLin.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../trabalhoProgLin/trabalhoProgLin/obj/Debug/netcoreapp2.2/trabalhoProgLin.pdb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,14 +104,35 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/Program.cs">
+        <entry file="file://$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/InterfaceGrafica/Tela.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="-78">
+              <caret line="67" column="49" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
               <folding>
-                <marker date="1558133026886" expanded="true" signature="38:148" ph="{...}" />
-                <marker date="1558133026886" expanded="true" signature="67:146" ph="{...}" />
-                <marker date="1558133026886" expanded="true" signature="120:140" ph="{...}" />
+                <marker date="1560124931838" expanded="true" signature="6:81" ph="..." />
+                <marker date="1560124931838" expanded="true" signature="138:3848" ph="{...}" />
+                <marker date="1560124931838" expanded="true" signature="169:3846" ph="{...}" />
+                <marker date="1560124931838" expanded="true" signature="244:866" ph="{...}" />
+                <marker date="1560124931838" expanded="true" signature="502:702" ph="{...}" />
+                <marker date="1560124931838" expanded="true" signature="620:688" ph="{...}" />
+                <marker date="1560124931838" expanded="true" signature="702:856" ph="{...}" />
+                <marker date="1560124931838" expanded="true" signature="944:1443" ph="{...}" />
+                <marker date="1560124931838" expanded="true" signature="1510:1682" ph="{...}" />
+                <marker date="1560124931838" expanded="true" signature="1585:1640" ph="{...}" />
+                <marker date="1560124931838" expanded="true" signature="1754:2079" ph="{...}" />
+                <marker date="1560124931838" expanded="true" signature="1802:2017" ph="{...}" />
+                <marker date="1560124931838" expanded="true" signature="1898:1966" ph="{...}" />
+                <marker date="1560124931838" expanded="true" signature="2177:3007" ph="{...}" />
+                <marker date="1560124931838" expanded="true" signature="2360:2892" ph="{...}" />
+                <marker date="1560124931838" expanded="true" signature="2460:2841" ph="{...}" />
+                <marker date="1560124931838" expanded="true" signature="2510:2598" ph="{...}" />
+                <marker date="1560124931838" expanded="true" signature="2598:2712" ph="{...}" />
+                <marker date="1560124931838" expanded="true" signature="3064:3249" ph="{...}" />
+                <marker date="1560124931838" expanded="true" signature="3302:3839" ph="{...}" />
+                <marker date="1560124931838" expanded="true" signature="3335:3387" ph="{...}" />
+                <marker date="1560124931838" expanded="true" signature="3387:3829" ph="{...}" />
+                <marker date="1560124931838" expanded="true" signature="3451:3511" ph="{...}" />
+                <marker date="1560124931838" expanded="true" signature="3511:3779" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -62,8 +140,14 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/InterfaceGrafica/Jogo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/InterfaceGrafica/Tela.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -84,6 +168,9 @@
         <option value="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/Xadrez/Dama.cs" />
         <option value="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/Xadrez/Cavalo.cs" />
         <option value="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/Xadrez/Bispo.cs" />
+        <option value="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/InterfaceGrafica/Tela.cs" />
+        <option value="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/InterfaceGrafica/Jogo.cs" />
+        <option value="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/Program.cs" />
       </list>
     </option>
   </component>
@@ -93,11 +180,14 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -120,22 +210,20 @@
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="CLIRefatoracaoDoJogoDeXadrez" type="24d0babc:SolutionExplorerModelNode" />
               <item name="CLIRefatoracaoDoJogoDeXadrez" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="References" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assemblies" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Properties" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -157,19 +245,19 @@
   </component>
   <component name="RunManager">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/bin/Debug/CLIRefatoracaoDoJogoDeXadrez.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/bin/Debug" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/CLIRefatoracaoDoJogoDeXadrez.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="None" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.6.1" />
       <method v="2">
         <option name="Build" enabled="true" />
       </method>
@@ -191,11 +279,14 @@
       <workItem from="1558212235225" duration="612000" />
       <workItem from="1558460239041" duration="16238000" />
       <workItem from="1558480296302" duration="79000" />
+      <workItem from="1560043333121" duration="2717000" />
+      <workItem from="1560097178336" duration="16572000" />
+      <workItem from="1560128539633" duration="1996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33045000" />
+    <option name="totallyTimeSpent" value="54330000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -209,14 +300,14 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26172465" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27362055" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3296" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -229,7 +320,7 @@
       <window_info anchor="bottom" id="Unit Tests" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="15" visible="true" weight="0.3290735" />
+      <window_info anchor="bottom" id="Build" order="15" visible="true" weight="0.328" />
       <window_info anchor="bottom" id="Inspection Results" order="16" weight="0.3290735" />
       <window_info anchor="bottom" id="TeamCity" order="17" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -273,14 +364,81 @@
     <entry file="file://$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/Xadrez/Bispo.cs" />
     <entry file="file://$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/Xadrez/Cavalo.cs" />
     <entry file="file://$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/Xadrez/Dama.cs" />
+    <entry file="file://$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/Properties/AssemblyInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <marker date="1558132987317" expanded="true" signature="6:62" ph="..." />
+            <marker date="1558132987317" expanded="true" signature="64:251" ph="/* General Information about an assembly is controlled through the following ... */" />
+            <marker date="1558132987317" expanded="true" signature="594:804" ph="/* Setting ComVisible to false makes the types in this assembly not visible ... */" />
+            <marker date="1558132987317" expanded="true" signature="979:1306" ph="/* Version information for an assembly consists of the following four values: ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
           <folding>
-            <marker date="1558133026886" expanded="true" signature="38:148" ph="{...}" />
-            <marker date="1558133026886" expanded="true" signature="67:146" ph="{...}" />
-            <marker date="1558133026886" expanded="true" signature="120:140" ph="{...}" />
+            <marker date="1560128847320" expanded="true" signature="6:66" ph="..." />
+            <marker date="1560128847320" expanded="true" signature="106:406" ph="{...}" />
+            <marker date="1560128847320" expanded="true" signature="135:404" ph="{...}" />
+            <marker date="1560128847320" expanded="true" signature="188:398" ph="{...}" />
+            <marker date="1560128847320" expanded="true" signature="214:271" ph="{...}" />
+            <marker date="1560128847320" expanded="true" signature="303:388" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/InterfaceGrafica/Jogo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <marker date="1560128624423" expanded="true" signature="6:47" ph="..." />
+            <marker date="1560128624423" expanded="true" signature="104:1793" ph="{...}" />
+            <marker date="1560128624423" expanded="true" signature="128:1791" ph="{...}" />
+            <marker date="1560128624423" expanded="true" signature="168:1785" ph="{...}" />
+            <marker date="1560128624423" expanded="true" signature="195:1659" ph="{...}" />
+            <marker date="1560128624423" expanded="true" signature="319:1565" ph="{...}" />
+            <marker date="1560128624423" expanded="true" signature="363:1355" ph="{...}" />
+            <marker date="1560128624423" expanded="true" signature="1405:1547" ph="{...}" />
+            <marker date="1560128624423" expanded="true" signature="1701:1775" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CLIRefatoracaoDoJogoDeXadrez/InterfaceGrafica/Tela.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78">
+          <caret line="67" column="49" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
+          <folding>
+            <marker date="1560124931838" expanded="true" signature="6:81" ph="..." />
+            <marker date="1560124931838" expanded="true" signature="138:3848" ph="{...}" />
+            <marker date="1560124931838" expanded="true" signature="169:3846" ph="{...}" />
+            <marker date="1560124931838" expanded="true" signature="244:866" ph="{...}" />
+            <marker date="1560124931838" expanded="true" signature="502:702" ph="{...}" />
+            <marker date="1560124931838" expanded="true" signature="620:688" ph="{...}" />
+            <marker date="1560124931838" expanded="true" signature="702:856" ph="{...}" />
+            <marker date="1560124931838" expanded="true" signature="944:1443" ph="{...}" />
+            <marker date="1560124931838" expanded="true" signature="1510:1682" ph="{...}" />
+            <marker date="1560124931838" expanded="true" signature="1585:1640" ph="{...}" />
+            <marker date="1560124931838" expanded="true" signature="1754:2079" ph="{...}" />
+            <marker date="1560124931838" expanded="true" signature="1802:2017" ph="{...}" />
+            <marker date="1560124931838" expanded="true" signature="1898:1966" ph="{...}" />
+            <marker date="1560124931838" expanded="true" signature="2177:3007" ph="{...}" />
+            <marker date="1560124931838" expanded="true" signature="2360:2892" ph="{...}" />
+            <marker date="1560124931838" expanded="true" signature="2460:2841" ph="{...}" />
+            <marker date="1560124931838" expanded="true" signature="2510:2598" ph="{...}" />
+            <marker date="1560124931838" expanded="true" signature="2598:2712" ph="{...}" />
+            <marker date="1560124931838" expanded="true" signature="3064:3249" ph="{...}" />
+            <marker date="1560124931838" expanded="true" signature="3302:3839" ph="{...}" />
+            <marker date="1560124931838" expanded="true" signature="3335:3387" ph="{...}" />
+            <marker date="1560124931838" expanded="true" signature="3387:3829" ph="{...}" />
+            <marker date="1560124931838" expanded="true" signature="3451:3511" ph="{...}" />
+            <marker date="1560124931838" expanded="true" signature="3511:3779" ph="{...}" />
           </folding>
         </state>
       </provider>

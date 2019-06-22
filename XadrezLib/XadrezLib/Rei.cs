@@ -1,8 +1,9 @@
+using NUnit.Framework;
 using Tabuleiro;
 
 namespace XadrezLib
 {
-    public class Rei:Peca
+    public sealed class Rei:Peca
     {
         private PartidaDeXadrez _partidaDeXadrez;
         public Rei(Cor cor, Tabuleiro.Tabuleiro tab, PartidaDeXadrez partidaDeXadrez) : base(cor, tab)
@@ -10,11 +11,12 @@ namespace XadrezLib
             _partidaDeXadrez = partidaDeXadrez;
         }
         
-        public sealed override string ToString() 
+        public override string ToString() 
         {
             return "R";
         }
-
+        
+        [Description("Função responsável por retornar se a peça pode ou não se mover")]
         private bool PodeMover(Posicao pos) 
         {
             Peca p = tab.Peca(pos);
@@ -26,8 +28,9 @@ namespace XadrezLib
             Peca p = tab.Peca(pos);
             return p != null && p is Torre && p.cor == cor && p.qteMovimentos.Movimento == 0;
         }
-
-        public sealed override bool[,] movimentosPossiveis() 
+    
+        [Description("Função herdada da classe pai Peça, responsável por retornar os movimentos possiveis da subclasse Rei")]
+        public override bool[,] movimentosPossiveis() 
         {
             bool[,] mat = new bool[tab.Linhas, tab.Colunas];
 
@@ -35,49 +38,49 @@ namespace XadrezLib
 
             // acima
             pos.definirValores(posicao.linha - 1, posicao.coluna);
-            if (!tab.TestarPosicao(pos) && PodeMover(pos)) 
+            if (TestesTabuleiro.PosicaoValida(pos,tab)  && PodeMover(pos)) 
             {
                 mat[pos.linha, pos.coluna] = true;
             }
             // ne
             pos.definirValores(posicao.linha - 1, posicao.coluna + 1);
-            if (!tab.TestarPosicao(pos) && PodeMover(pos)) 
+            if (TestesTabuleiro.PosicaoValida(pos,tab) && PodeMover(pos)) 
             {
                 mat[pos.linha, pos.coluna] = true;
             }
             // direita
             pos.definirValores(posicao.linha, posicao.coluna + 1);
-            if (tab.TestarPosicao(pos) && PodeMover(pos)) 
+            if (TestesTabuleiro.PosicaoValida(pos,tab) && PodeMover(pos)) 
             {
                 mat[pos.linha, pos.coluna] = true;
             }
             // se
             pos.definirValores(posicao.linha + 1, posicao.coluna + 1);
-            if (!tab.TestarPosicao(pos) && PodeMover(pos)) 
+            if (TestesTabuleiro.PosicaoValida(pos,tab) && PodeMover(pos)) 
             {
                 mat[pos.linha, pos.coluna] = true;
             }
             // abaixo
             pos.definirValores(posicao.linha + 1, posicao.coluna);
-            if (!tab.TestarPosicao(pos) && PodeMover(pos)) 
+            if (TestesTabuleiro.PosicaoValida(pos,tab) && PodeMover(pos)) 
             {
                 mat[pos.linha, pos.coluna] = true;
             }
             // so
             pos.definirValores(posicao.linha + 1, posicao.coluna - 1);
-            if (!tab.TestarPosicao(pos) && PodeMover(pos)) 
+            if (TestesTabuleiro.PosicaoValida(pos,tab) && PodeMover(pos)) 
             {
                 mat[pos.linha, pos.coluna] = true;
             }
             // esquerda
             pos.definirValores(posicao.linha, posicao.coluna - 1);
-            if (!tab.TestarPosicao(pos) && PodeMover(pos)) 
+            if (TestesTabuleiro.PosicaoValida(pos,tab) && PodeMover(pos)) 
             {
                 mat[pos.linha, pos.coluna] = true;
             }
             // no
             pos.definirValores(posicao.linha - 1, posicao.coluna - 1);
-            if (!tab.TestarPosicao(pos) && PodeMover(pos)) 
+            if (TestesTabuleiro.PosicaoValida(pos,tab) && PodeMover(pos)) 
             {
                 mat[pos.linha, pos.coluna] = true;
             }

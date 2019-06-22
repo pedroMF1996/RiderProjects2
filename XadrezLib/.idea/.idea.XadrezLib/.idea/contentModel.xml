@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="C:\Users\PEDROMARTINSFALLEIRO\.Rider2019.1\config\scratches" t="IncludeRecursive" />
     <e p="C:\Users\PEDROMARTINSFALLEIRO\.Rider2019.1\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\PEDROMARTINSFALLEIRO\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_XadrezLib.-1724494425.00" t="ExcludeRecursive" />
     <e p="C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\XadrezLib" t="IncludeFlat">
@@ -11,6 +12,7 @@
         <e p="Cavalo.cs" t="Include" />
         <e p="Dama.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
         <e p="PartidaDeXadrez.cs" t="Include" />
         <e p="Peao.cs" t="Include" />
         <e p="PosicaoXadrez.cs" t="Include" />

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="C:\Users\PEDROMARTINSFALLEIRO\.Rider2019.1\config\scratches" t="IncludeRecursive" />
     <e p="C:\Users\PEDROMARTINSFALLEIRO\.Rider2019.1\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\PEDROMARTINSFALLEIRO\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_Tabuleiro.216630415.00" t="ExcludeRecursive" />
     <e p="C:\Users\PEDROMARTINSFALLEIRO\RiderProjects\Tabuleiro" t="IncludeFlat">
@@ -16,6 +17,7 @@
         <e p="Tabuleiro.cs" t="Include" />
         <e p="Tabuleiro.csproj" t="IncludeRecursive" />
         <e p="TabuleiroException.cs" t="Include" />
+        <e p="TestesTabuleiro.cs" t="Include" />
       </e>
       <e p="Tabuleiro.sln" t="IncludeFlat" />
     </e>

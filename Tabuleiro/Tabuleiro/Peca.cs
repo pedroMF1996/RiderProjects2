@@ -31,24 +31,22 @@ namespace Tabuleiro
         public bool existeMovimentosPossiveis()
         {
             bool[,] mat = movimentosPossiveis();
-            Func<int, int, bool> existeAlgumMovimento = (int i, int j) =>
+            var i = 0;
+            var j = 0;
+            while (i < tab.Linhas)
             {
-                while (i<=tab.Linhas)
+                while (j < tab.Colunas)
                 {
-                    while (j<=tab.Colunas)
+                    if (mat[i,j])
                     {
-                        if (mat[i,j])
-                        {
-                            return true;
-                        }
-                        j++;
+                        return true;
                     }
-                    j = 0;
-                    i++;
+                    j++;
                 }
-                return false;
-            };
-            return existeAlgumMovimento(0,0);
+                j = 0;
+                i++;
+            }
+            return false;
         }
 
         public bool movimentosPossiveis(Posicao pos)
