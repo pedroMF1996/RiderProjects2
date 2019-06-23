@@ -56,7 +56,7 @@ namespace TreinarLogica2
 
         //converte o array de bytes de recebimento em uma string utf8
         private static string TextStringUtf8(byte[] msg) =>
-            Encoding.UTF8.GetString(msg??throw new ApplicationException("O array de bytes aqui é nullo"));
+            Encoding.UTF8.GetString(msg ?? throw new ApplicationException("O array de bytes aqui é nullo"));
         
         private static string Encrypt(string msg)
         {
