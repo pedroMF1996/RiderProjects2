@@ -30,13 +30,15 @@ namespace TreinarLogica2
                 Console.WriteLine();
                 var mensagemDescriptografada = Decrypt(mensagemCriptografada);
                 Console.WriteLine(mensagemDescriptografada);
-                
-                //Fecha provedor
-                _rsa.Dispose();
             }
             catch (Exception e)
             {
                 Console.WriteLine(e);
+            }
+            finally
+            {
+                //Fecha provedor
+                _rsa.Dispose();
             }
         }
         
@@ -82,4 +84,4 @@ namespace TreinarLogica2
             return TextStringUtf8(result);
         }
     }
-}
+}    
