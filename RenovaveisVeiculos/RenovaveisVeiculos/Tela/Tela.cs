@@ -17,6 +17,7 @@ namespace RenovaveisVeiculos.Tela
                 switch (opt)
                 {
                     case 0:
+                        RegistrarCaminho();
                         break;
                     case 1:
                         InsertMode();
