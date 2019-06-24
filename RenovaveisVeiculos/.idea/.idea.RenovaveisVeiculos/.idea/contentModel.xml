@@ -11,6 +11,10 @@
         <e p="Controle" t="Include">
           <e p="Registrar.cs" t="Include" />
         </e>
+        <e p="ExcecaoPersonalizada" t="Include">
+          <e p="ControllerException.cs" t="Include" />
+          <e p="TelaException.cs" t="Include" />
+        </e>
         <e p="Modelo" t="Include">
           <e p="Cliente.cs" t="Include" />
           <e p="ContaCorrente.cs" t="Include" />

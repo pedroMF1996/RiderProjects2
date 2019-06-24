@@ -1,6 +1,6 @@
 using System;
 using RenovaveisVeiculos.Controle;
-using RenovaveisVeiculos.Modelo;
+using RenovaveisVeiculos.ExcecaoPersonalizada;
 
 namespace RenovaveisVeiculos.Tela
 {
@@ -37,6 +37,7 @@ namespace RenovaveisVeiculos.Tela
                         break;
                 }
             }
+            
         }
 
         private static void Menu()
@@ -64,7 +65,7 @@ namespace RenovaveisVeiculos.Tela
             }
             catch (ApplicationException apException)
             {
-                Console.WriteLine(apException);
+                Console.WriteLine(apException.Message);
             }
             catch (Exception e)
             {
@@ -76,13 +77,13 @@ namespace RenovaveisVeiculos.Tela
         {
             try
             {
-                Console.WriteLine("Inserção de elementos de transação: \n\n");
+                Console.WriteLine("Inserção de elementos de transação:\n");
                 var transacao = Insert.Transacao();
                 _registrar.Insert(transacao);
             }
             catch (ApplicationException apException)
             {
-                Console.WriteLine(apException);
+                Console.WriteLine(apException.Message);
             }
             catch (Exception e)
             {
@@ -99,7 +100,7 @@ namespace RenovaveisVeiculos.Tela
             }
             catch (ApplicationException apException)
             {
-                Console.WriteLine(apException);
+                Console.WriteLine(apException.Message);
             }
             catch (Exception e)
             {
@@ -115,7 +116,7 @@ namespace RenovaveisVeiculos.Tela
             }
             catch (ApplicationException apException)
             {
-                Console.WriteLine(apException);
+                Console.WriteLine(apException.Message);
             }
             catch (Exception e)
             {
@@ -131,7 +132,7 @@ namespace RenovaveisVeiculos.Tela
             }
             catch (ApplicationException apException)
             {
-                Console.WriteLine(apException);
+                Console.WriteLine(apException.Message);
             }
             catch (Exception e)
             {
@@ -145,9 +146,10 @@ namespace RenovaveisVeiculos.Tela
             {
 
             }
+            
             catch (ApplicationException apException)
             {
-                Console.WriteLine(apException);
+                Console.WriteLine(apException.Message);
             }
             catch (Exception e)
             {

@@ -1,13 +1,24 @@
 using System;
+using System.Text;
+using RenovaveisVeiculos.ExcecaoPersonalizada;
 using RenovaveisVeiculos.Modelo;
 
 namespace RenovaveisVeiculos.Tela
 {
     public static class Insert
     {
+        public static string RecebeString(string msgCasoHouverExcecao)
+            => Console.ReadLine()??throw new TelaException(msgCasoHouverExcecao);
+        
+        private static char RecebeOpcaoDeConta() => Char.ToUpper(Convert.ToChar(
+            RecebeString(
+                "O campo tipo de conta deve ser escolhido entre C ou E para que haja o andamento regular do programa")));
+
+
         public static Transacao Transacao()
         {
             Console.WriteLine("Transação :");
+            
             Console.Write("Id: ");
             var id = int.Parse(RecebeString("O id não pode ser nullo"));
                 
@@ -33,18 +44,15 @@ namespace RenovaveisVeiculos.Tela
             var nome = RecebeString("O campo Nome não pode ser nullo");
 
             Console.WriteLine("Qualo tipo de conta do cliente? \nComum - C \nEspecial - E");
-            var conta = RecebeOpcaoDeConta() == 'N' ?
+            var conta = RecebeOpcaoDeConta() == 'C' ?
                 Conta(): RecebeOpcaoDeConta() == 'E' ?
                     ContaEspecial() :
-                    throw new ApplicationException("Campo preenchido irregularmente");
+                    throw new TelaException("Campo preenchido irregularmente");
             
             return new Cliente(cpf, nome, conta);
         }
 
-        private static char RecebeOpcaoDeConta() => Char.ToUpper(Convert.ToChar(
-            RecebeString(
-                "O campo tipo de conta deve ser escolhido entre C ou E para que haja o andamento regular do programa")));
-
+        
         public static ContaCorrente Conta()
         {
             Console.WriteLine("Conta corrente: ");
@@ -103,8 +111,7 @@ namespace RenovaveisVeiculos.Tela
             return new Veiculo(id, marca, modelo, cor, anoDeFabricacao, combustivel, valor);
         }
         
-        public static string RecebeString(string msgCasoHouverExcecao) => 
-            Console.ReadLine()??throw new ApplicationException(msgCasoHouverExcecao);
+      
 
     }
 }

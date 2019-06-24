@@ -39,6 +39,8 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Controle\Registrar.cs" />
+        <Compile Include="ExcecaoPersonalizada\ControllerException.cs" />
+        <Compile Include="ExcecaoPersonalizada\TelaException.cs" />
         <Compile Include="Modelo\Cliente.cs" />
         <Compile Include="Modelo\ContaCorrente.cs" />
         <Compile Include="Modelo\ContaCorrenteEspecial.cs" />

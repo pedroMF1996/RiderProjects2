@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using RenovaveisVeiculos.ExcecaoPersonalizada;
 using static RenovaveisVeiculos.Tela.Tela;
 
 namespace RenovaveisVeiculos
@@ -7,19 +9,27 @@ namespace RenovaveisVeiculos
     {
         public static void Main(string[] args)
         {
-            try
+            checked
             {
-                MostrarMenu();
+                Console.Clear();
+                try
+                {
+                    MostrarMenu();
+                }
+                catch (IOException e)
+                {
+                    Console.WriteLine($"{e.Message}\n{e.StackTrace}");   
+                }
+                catch (ApplicationException e)
+                {
+                    Console.WriteLine($"{e.Message}\n{e.StackTrace}");
+                }
+                catch (SystemException exception)
+                {
+                    Console.WriteLine($"{exception.Message}\n {exception.StackTrace}");
+                }
+                
             }
-            catch (ApplicationException apException)
-            {
-                Console.WriteLine(apException);
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-            }
-            
         }
     }
 }

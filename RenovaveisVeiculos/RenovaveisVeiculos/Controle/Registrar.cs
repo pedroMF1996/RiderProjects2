@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using RenovaveisVeiculos.ExcecaoPersonalizada;
 using RenovaveisVeiculos.Modelo;
 
 namespace RenovaveisVeiculos.Controle
@@ -24,7 +25,8 @@ namespace RenovaveisVeiculos.Controle
         private static StreamReader SetReader() => new StreamReader(SourcePath);
         private static StreamWriter SetWriter() => new StreamWriter(SourcePath);
         private static void DeleteDocumment() => File.Delete(SourcePath);
-        private static StreamWriter CreateDocumment() => File.CreateText(SourcePath);
+        private static StreamWriter RecreateDocumment() => File.CreateText(SourcePath);
+        private static FileStream CreateDocument() => File.Create(SourcePath);
         
         //Encontra
         [DisplayName("Encontra registros")]
@@ -46,14 +48,14 @@ namespace RenovaveisVeiculos.Controle
                     }
                     else
                     {
-                        throw new ApplicationException("Já existe um registro com esse Id");
+                        throw new ControllerException("Já existe um registro com esse Id");
                     }
                 }
             }
             catch (Exception e)
             {
                 Console.WriteLine(e);
-                throw new ApplicationException("Ocorreu um erro durande a inserção do registro");
+                throw new ControllerException("Ocorreu um erro durande a inserção do registro");
             }
         }
         
@@ -64,7 +66,7 @@ namespace RenovaveisVeiculos.Controle
         {
             try
             {
-                using (var creator = CreateDocumment())
+                using (var creator = RecreateDocumment())
                 {
                     await creator.WriteLineAsync(transacao.ToString());
                 }
@@ -94,7 +96,7 @@ namespace RenovaveisVeiculos.Controle
                 }
                 else
                 {
-                    throw new ApplicationException("Não existe o registro a ser editado \nRecomendação: Inserção do registro");
+                    throw new ControllerException("Não existe o registro a ser editado \nRecomendação: Inserção do registro");
                 }
             }
             catch (Exception e)
@@ -133,7 +135,7 @@ namespace RenovaveisVeiculos.Controle
             {
                 //Exclui o docummento antigo
                 DeleteDocumment();
-                using (var replace = CreateDocumment())//Cria o documento junto ao seu escritor
+                using (var replace = RecreateDocumment())//Cria o documento junto ao seu escritor
                 {
                     foreach (var transacaoItem in translistresult)
                     {
@@ -183,7 +185,7 @@ namespace RenovaveisVeiculos.Controle
             catch (Exception e)
             {
                 Console.WriteLine(e);
-                throw new ApplicationException("Ocorreu um erro durante a listagem dos registros");
+                throw new ControllerException("Ocorreu um erro durante a listagem dos registros");
             }
         }
 
@@ -200,7 +202,7 @@ namespace RenovaveisVeiculos.Controle
             catch (Exception e)
             {
                 Console.WriteLine(e);
-                throw new ApplicationException("Ocorreu um erro durante a montagem da Transação");
+                throw new ControllerException("Ocorreu um erro durante a montagem da Transação");
             }
         }
 
@@ -216,7 +218,7 @@ namespace RenovaveisVeiculos.Controle
             catch (Exception e)
             {
                 Console.WriteLine(e);
-                throw new ApplicationException("Ocorreu um erro durante a montagem do Cliente");
+                throw new ControllerException("Ocorreu um erro durante a montagem do Cliente");
             }
         }
 
@@ -239,7 +241,7 @@ namespace RenovaveisVeiculos.Controle
             catch (Exception e)
             {
                 Console.WriteLine(e);
-                throw new ApplicationException("Ocorreu um erro durante a montagem da Conta Corrente");
+                throw new ControllerException("Ocorreu um erro durante a montagem da Conta Corrente");
             }
             
         }
@@ -261,7 +263,7 @@ namespace RenovaveisVeiculos.Controle
             catch (Exception e)
             {
                 Console.WriteLine(e);
-                throw new ApplicationException("Ocorreu um erro durante a montagem do Veiculo");
+                throw new ControllerException("Ocorreu um erro durante a montagem do Veiculo");
             }
         }
     }
