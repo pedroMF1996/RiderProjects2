@@ -12,6 +12,11 @@ namespace RenovaveisVeiculos.Modelo
             Limite = limite;
         }
 
+        public ContaCorrenteEspecial()
+        {
+        }
+
+
         public void SaqueContaEspecial(double value)
         {
             if (value <= Saldo+Limite)

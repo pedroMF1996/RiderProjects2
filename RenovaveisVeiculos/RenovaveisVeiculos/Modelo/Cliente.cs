@@ -13,6 +13,11 @@ namespace RenovaveisVeiculos.Modelo
             Conta = conta;
         }
 
+        public Cliente()
+        {
+            
+        }
+
         public override string ToString()
         {
             return $@"{CPF} {Nome} {Conta}\";

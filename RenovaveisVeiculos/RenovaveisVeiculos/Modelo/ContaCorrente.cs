@@ -14,6 +14,10 @@ namespace RenovaveisVeiculos.Modelo
             Saldo = saldo;
         }
 
+        public ContaCorrente()
+        {
+            
+        }
         //Desposito
         public void Deposito(double value)
         {
