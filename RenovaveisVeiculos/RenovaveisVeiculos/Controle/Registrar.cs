@@ -149,6 +149,8 @@ namespace RenovaveisVeiculos.Controle
         }
         
         //Listar
+        [DisplayName("Listagem dos registros")]
+        [Description("Responsavel por promover a listagem dos registros")]
         public List<Transacao> List()
         {
             try
@@ -181,9 +183,8 @@ namespace RenovaveisVeiculos.Controle
             catch (Exception e)
             {
                 Console.WriteLine(e);
-                
+                throw new ApplicationException("Ocorreu um erro durante a listagem dos registros");
             }
-            throw new ApplicationException("Ocorreu um erro durante a listagem dos registros");
         }
 
         private static Transacao MontaTransacao(string[] transacao,Cliente cliente, Veiculo veiculo)
