@@ -12,22 +12,7 @@ namespace RenovaveisVeiculos
             checked
             {
                 Console.Clear();
-                try
-                {
-                    MostrarMenu();
-                }
-                catch (IOException e)
-                {
-                    Console.WriteLine($"{e.Message}\n{e.StackTrace}");   
-                }
-                catch (ApplicationException e)
-                {
-                    Console.WriteLine($"{e.Message}\n{e.StackTrace}");
-                }
-                catch (SystemException exception)
-                {
-                    Console.WriteLine($"{exception.Message}\n {exception.StackTrace}");
-                }
+                MostrarMenu();
                 
             }
         }

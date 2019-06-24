@@ -1,6 +1,6 @@
 using System;
+using System.IO;
 using RenovaveisVeiculos.Controle;
-using RenovaveisVeiculos.ExcecaoPersonalizada;
 
 namespace RenovaveisVeiculos.Tela
 {
@@ -10,34 +10,56 @@ namespace RenovaveisVeiculos.Tela
         
         public static void MostrarMenu()
         {
-            int opt = 0;
-            while (opt!=6)
+            try
             {
-                Menu();
-                opt = int.Parse(Insert.RecebeString("Você deve escolher uma opção"));
-                switch (opt)
+                int opt = 0;
+                while (opt!=6)
                 {
-                    case 0:
+                    Console.Clear();    
+                    Menu();
+                    opt = int.Parse(Insert.RecebeString("Você deve escolher uma opção"));
+                    if (opt == 0)
+                    {
                         RegistrarCaminho();
-                        break;
-                    case 1:
+                    }
+                    else 
+                    if (opt == 1)
+                    {
                         InsertMode();
-                        break;
-                    case 2:
+                    }
+                    else 
+                    if (opt == 2)
+                    {
                         ExcludeMode();
-                        break;
-                    case 3:
+                    }
+                    else 
+                    if (opt == 3)
+                    {
                         ListMode();
-                        break;
-                    case 4:
+                    }
+                    else 
+                    if (opt == 4)
+                    {
                         FilterMode();
-                        break;
-                    case 5:
+                    }
+                    else if (opt == 5)
+                    {
                         UpdateMode();
-                        break;
-                }
+                    }
+                }   
             }
-            
+            catch (IOException e)
+            {
+                Console.WriteLine($"{e.Message}\n{e.StackTrace}");   
+            }
+            catch (ApplicationException e)
+            {
+                Console.WriteLine($"{e.Message}\n{e.StackTrace}");
+            }
+            catch (SystemException exception)
+            {
+                Console.WriteLine($"{exception.Message}\n {exception.StackTrace}");
+            }
         }
 
         private static void Menu()

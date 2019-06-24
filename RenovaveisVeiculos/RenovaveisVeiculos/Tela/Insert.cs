@@ -1,4 +1,5 @@
 using System;
+using System.Globalization;
 using System.Text;
 using RenovaveisVeiculos.ExcecaoPersonalizada;
 using RenovaveisVeiculos.Modelo;
@@ -8,9 +9,18 @@ namespace RenovaveisVeiculos.Tela
     public static class Insert
     {
         public static string RecebeString(string msgCasoHouverExcecao)
-            => Console.ReadLine()??throw new TelaException(msgCasoHouverExcecao);
+        {
+            var result = Console.ReadLine();
+            if (String.IsNullOrEmpty(result))
+            {
+                throw new TelaException(msgCasoHouverExcecao);
+            }
+
+            return result;
+        }
+            
         
-        private static char RecebeOpcaoDeConta() => Char.ToUpper(Convert.ToChar(
+        private static char RecebeCharMaiusculo() => Char.ToUpper(Convert.ToChar(
             RecebeString(
                 "O campo tipo de conta deve ser escolhido entre C ou E para que haja o andamento regular do programa")));
 
@@ -44,8 +54,8 @@ namespace RenovaveisVeiculos.Tela
             var nome = RecebeString("O campo Nome não pode ser nullo");
 
             Console.WriteLine("Qualo tipo de conta do cliente? \nComum - C \nEspecial - E");
-            var conta = RecebeOpcaoDeConta() == 'C' ?
-                Conta(): RecebeOpcaoDeConta() == 'E' ?
+            var conta = RecebeCharMaiusculo() == 'C' ?
+                Conta(): RecebeCharMaiusculo() == 'E' ?
                     ContaEspecial() :
                     throw new TelaException("Campo preenchido irregularmente");
             
@@ -98,7 +108,7 @@ namespace RenovaveisVeiculos.Tela
             var cor = (Cor) Enum.Parse(typeof(Cor), RecebeString("A cor não pode ser nulla"));
 
             Console.Write("Ano de fabricação: ");
-            var anoDeFabricacao = DateTime.Parse(RecebeString("Data de fabricação não pode ser nulla"));
+            var anoDeFabricacao = DateTime.ParseExact(RecebeString("Data de fabricação não pode ser nulla"),"yyyy",CultureInfo.InvariantCulture);
             
             Console.Write("Combustivel: ");
             var combustivel =
