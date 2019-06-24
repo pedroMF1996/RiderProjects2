@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
@@ -7,11 +8,14 @@ using RenovaveisVeiculos.Modelo;
 
 namespace RenovaveisVeiculos.Controle
 {
+    [DisplayName("Controller de registros")]
+    [Description("Controlador de registros do software Renovaveis veículos \n" +
+                 "Responsavel por criar, inserir, atualizar e remover dados da folha de registros")]
     public class Registrar
     {
         private static string SourcePath { get; set; }
         
-
+        [Description("Construtor do controle de registros")]
         public Registrar(string path)
         {
             SourcePath = path;
@@ -23,25 +27,39 @@ namespace RenovaveisVeiculos.Controle
         private static StreamWriter CreateDocumment() => File.CreateText(SourcePath);
         
         //Encontra
+        [DisplayName("Encontra registros")]
+        [Description("Verifica a existencia ou a não existencia de registros com aquele determinado Id")]
         public bool FindById(int idTransacao) => List().Any(x => x.Id == idTransacao);
         
         //Inserir
+        [DisplayName("Insere registros")]
+        [Description("Verifica se há registro com o id indicado, caso não tenha insere-se o registro e caso contrário lança uma exceção")]
         public void Insert(Transacao transacao)
         {
-            using (var escritor = SetWriter())
+            try
             {
-                if (!FindById(transacao.Id))
+                using (var escritor = SetWriter())
                 {
-                    escritor.WriteLine(transacao.ToString());
+                    if (!FindById(transacao.Id))
+                    {
+                        escritor.WriteLine(transacao.ToString());
+                    }
+                    else
+                    {
+                        throw new ApplicationException("Já existe um registro com esse Id");
+                    }
                 }
-                else
-                {
-                    throw new ApplicationException("Já existe um registro com esse Id");
-                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw new ApplicationException("Ocorreu um erro durande a inserção do registro");
             }
         }
         
         //Cria e insere
+        [DisplayName("Cria e insere")]
+        [Description("Usado para o caso de não haver o documento indicado o método cria o documento e insere os registros")]
         public async Task CreateAndInsert(Transacao transacao)
         {
             try
@@ -58,6 +76,8 @@ namespace RenovaveisVeiculos.Controle
         }
         
         //Alterar
+        [DisplayName("Altera o registro")]
+        [Description("Usado para promover a alteração do registro, caso ele exista, caso não exista o método lançará uma exceção")]
         public void Update(Transacao transacaoOld, Transacao transacao)
         {
 
@@ -83,6 +103,8 @@ namespace RenovaveisVeiculos.Controle
             }
         }
         
+        [DisplayName("Remove registro")]
+        [Description("Usado para a remoção de registro, caso ele exista, caso não exista o método lançará uma exceção")]
         //Remover
         public void Remove(Transacao transacao)
         {
