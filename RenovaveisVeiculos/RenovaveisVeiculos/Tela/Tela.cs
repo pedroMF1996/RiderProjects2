@@ -14,6 +14,7 @@ namespace RenovaveisVeiculos.Tela
             while (opt!=6)
             {
                 Menu();
+                opt = int.Parse(Insert.RecebeString("Você deve escolher uma opção"));
                 switch (opt)
                 {
                     case 0:

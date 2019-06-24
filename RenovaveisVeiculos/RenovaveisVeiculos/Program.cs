@@ -1,4 +1,5 @@
 ﻿using System;
+using static RenovaveisVeiculos.Tela.Tela;
 
 namespace RenovaveisVeiculos
 {
@@ -8,7 +9,7 @@ namespace RenovaveisVeiculos
         {
             try
             {
-                
+                MostrarMenu();
             }
             catch (ApplicationException apException)
             {
