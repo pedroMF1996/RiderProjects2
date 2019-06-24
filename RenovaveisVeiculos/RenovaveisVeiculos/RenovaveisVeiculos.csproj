@@ -46,8 +46,11 @@
         <Compile Include="Modelo\Veiculo.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="Tela\Insert.cs" />
+        <Compile Include="Tela\Tela.cs" />
     </ItemGroup>
     <ItemGroup>
+      <Content Include="TestesDeMesa\InsertTela.txt" />
       <Content Include="TestesDeMesa\ProcessoDeListar.txt" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

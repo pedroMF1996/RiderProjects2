@@ -1,0 +1,47 @@
+tem que montar 
+transação
+public Transacao(int id, DateTime data, Cliente cliente, Veiculo mercadoria, int quantidade)
+{
+      Id = id;
+      Data = data;
+      Cliente = cliente;
+      Mercadoria = mercadoria;
+      Quantidade = quantidade;
+}
+
+
+cliente
+public Cliente(string cpf, string nome, ContaCorrente conta)
+{
+      CPF = cpf;
+      Nome = nome;
+      Conta = conta;
+}
+
+Conta Corrente
+public ContaCorrente(string titular, double saldo)
+{
+      Titular = titular;
+      Saldo = saldo;
+}
+
+Conta Corrente Especial
+public ContaCorrenteEspecial(string titular, double saldo, double limite) : base(titular, saldo)
+{
+      Limite = limite;
+}
+
+Veiculo
+public Veiculo(int id, string marca, string modelo, Cor cor, DateTime anoDeFabricacao, Combustivel combustivel, double valor)
+{
+      Id = id;
+      Marca = marca;
+      Modelo = modelo;
+      Cor = cor;
+      AnoDeFabricacao = anoDeFabricacao;
+      Combustivel = combustivel;
+      Valor = valor;
+}
+
+
+

@@ -49,6 +49,7 @@ namespace RenovaveisVeiculos.Modelo
     {
         Gasolina,
         Alcool,
-        ÓleoDisel
+        ÓleoDisel,
+        Flex
     } 
 }

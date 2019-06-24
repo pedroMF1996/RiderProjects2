@@ -24,7 +24,12 @@
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
         <e p="RenovaveisVeiculos.csproj" t="IncludeRecursive" />
+        <e p="Tela" t="Include">
+          <e p="Insert.cs" t="Include" />
+          <e p="Tela.cs" t="Include" />
+        </e>
         <e p="TestesDeMesa" t="Include">
+          <e p="InsertTela.txt" t="Include" />
           <e p="ProcessoDeListar.txt" t="Include" />
         </e>
       </e>
