@@ -1,0 +1,68 @@
+Transação
+return $@"{Id.ToString()} {Data.ToString(CultureInfo.InvariantCulture)} {Valor.ToString("f2",CultureInfo.InvariantCulture)}\" +
+                   $"{Cliente}" +
+                   $"{Mercadoria}";
+Cliente
+return $@"{CPF} {Nome} {Conta}\";
+
+Conta corrente
+return $@"\{Titular} {Saldo.ToString("f2",CultureInfo.InvariantCulture)}";
+
+Conta corrente especial
+return $@"\{Titular} {Saldo.ToString("f2",CultureInfo.InvariantCulture)} {Limite.ToString("f2",CultureInfo.InvariantCulture)}";
+
+Carro
+return $@"\{Id.ToString()} {Marca} {Modelo} {Cor.ToString()} {AnoDeFabricacao.ToString(CultureInfo.InvariantCulture)} {Combustivel.ToString()}";
+
+
+
+1 2019 55.00\ 475.608.418-48 Pedro\ Pedro 10000.00\ 1 Honda Civic preto 2010 Gasolina
+
+split('\\')
+
+Conteudo = [0] 1 2019 55.00
+	   [1] 475.608.418-48 Pedro
+	   [2] Pedro 10000.00
+	   [3] 1 Honda Civic preto 2010 Gasolina
+
+
+
+transacao = conteudo[0].split(' ');
+1 2019 55.00
+transacao = [0]1 
+	    [1]2019 
+	    [2]55.00
+
+cliente = conteudo[1].split(' ');
+475.608.418-48 Pedro
+cliente = [0]475.608.418-48 
+	  [1]Pedro
+
+conta = conteudo[2].split(' ');
+Pedro 10000.00
+conta = [0]Pedro
+	[1]10000.00
+
+veiculo = conteudo[3].split(' ');
+1 Honda Civic preto 2010 Gasolina
+veiculo = [0]1
+	  [1]Honda
+	  [2]Civic
+	  [3]preto
+	  [4]2010
+	  [5]Gasolina
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

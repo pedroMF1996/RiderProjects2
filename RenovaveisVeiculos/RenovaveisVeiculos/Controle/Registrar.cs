@@ -53,6 +53,7 @@ namespace RenovaveisVeiculos.Controle
             Leitor = SetReader();
             while (!Leitor.EndOfStream)
             {
+                var conteudo = Leitor.ReadLineAsync().ToString().Split('\\');
                 
             }
             throw new ApplicationException("Precisa ser implementado");

@@ -24,7 +24,7 @@ namespace RenovaveisVeiculos.Modelo
 
         public override string ToString()
         {
-            return $@"\{Id.ToString()} {Marca} {Modelo} {Cor.ToString()} {AnoDeFabricacao.ToString(CultureInfo.InvariantCulture)} {Combustivel.ToString()}\";
+            return $@"\{Id.ToString()} {Marca} {Modelo} {Cor.ToString()} {AnoDeFabricacao.ToString(CultureInfo.InvariantCulture)} {Combustivel.ToString()}    ";
         }
     }
 
