@@ -20,6 +20,9 @@ namespace RenovaveisVeiculos.Controle
         public Registrar(string path)
         {
             SourcePath = path;
+            using (var fileStream = CreateDocument())
+            {
+            }
         }
 
         private static StreamReader SetReader() => new StreamReader(SourcePath);
