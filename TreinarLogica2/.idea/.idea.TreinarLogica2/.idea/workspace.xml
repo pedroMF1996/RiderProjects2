@@ -24,9 +24,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="561ecaca-fb7a-4adb-afd7-52e87ebb3e8d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TreinarLogica2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TreinarLogica2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RenovaveisVeiculos/.idea/.idea.RenovaveisVeiculos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RenovaveisVeiculos/.idea/.idea.RenovaveisVeiculos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RenovaveisVeiculos/RenovaveisVeiculos/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../RenovaveisVeiculos/RenovaveisVeiculos/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TreinarLogica2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TreinarLogica2/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TreinarLogica2/TreinarLogica2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TreinarLogica2/TreinarLogica2.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TreinarLogica2/bin/Debug/TreinarLogica2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TreinarLogica2/bin/Debug/TreinarLogica2.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TreinarLogica2/bin/Debug/TreinarLogica2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TreinarLogica2/bin/Debug/TreinarLogica2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TreinarLogica2/obj/Debug/TreinarLogica2.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TreinarLogica2/obj/Debug/TreinarLogica2.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TreinarLogica2/obj/Debug/TreinarLogica2.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TreinarLogica2/obj/Debug/TreinarLogica2.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TreinarLogica2/obj/Debug/TreinarLogica2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TreinarLogica2/obj/Debug/TreinarLogica2.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TreinarLogica2/obj/Debug/TreinarLogica2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TreinarLogica2/obj/Debug/TreinarLogica2.pdb" afterDir="false" />
     </list>
@@ -41,19 +46,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TreinarLogica2/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-150">
-              <caret line="30" column="78" lean-forward="true" selection-start-line="30" selection-start-column="78" selection-end-line="30" selection-end-column="78" />
+            <state relative-caret-position="82">
+              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
               <folding>
-                <marker date="1561290095295" expanded="true" signature="6:68" ph="..." />
-                <marker date="1561290095295" expanded="true" signature="94:3182" ph="{...}" />
-                <marker date="1561290095295" expanded="true" signature="123:3180" ph="{...}" />
-                <marker date="1561290095295" expanded="true" signature="317:505" ph="{...}" />
-                <marker date="1561290095295" expanded="true" signature="561:1232" ph="{...}" />
-                <marker date="1561290095295" expanded="true" signature="587:1011" ph="{...}" />
-                <marker date="1561290095295" expanded="true" signature="1043:1109" ph="{...}" />
-                <marker date="1561290095295" expanded="true" signature="1129:1222" ph="{...}" />
-                <marker date="1561290095295" expanded="true" signature="2312:2714" ph="{...}" />
-                <marker date="1561290095295" expanded="true" signature="2765:3174" ph="{...}" />
+                <marker date="1561642731871" expanded="false" signature="6:41" ph="..." />
+                <marker date="1561642731871" expanded="true" signature="66:1048" ph="{...}" />
+                <marker date="1561642731871" expanded="true" signature="95:1046" ph="{...}" />
+                <marker date="1561642731871" expanded="true" signature="189:1040" ph="{...}" />
+                <marker date="1561642731871" expanded="true" signature="216:831" ph="{...}" />
+                <marker date="1561642731871" expanded="true" signature="863:948" ph="{...}" />
+                <marker date="1561642731871" expanded="true" signature="970:1030" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -95,10 +97,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
     </panes>
   </component>
@@ -158,6 +160,7 @@
       <updated>1561161206515</updated>
       <workItem from="1561161238730" duration="7920000" />
       <workItem from="1561289849381" duration="1091000" />
+      <workItem from="1561641401150" duration="907000" />
     </task>
     <task id="LOCAL-00001" summary="commit dos estudos">
       <created>1561166679314</created>
@@ -187,11 +190,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561290313097</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Aprimoramento no sistema de criptografia">
+      <created>1561642783384</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1561642783384</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9011000" />
+    <option name="totallyTimeSpent" value="9918000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -204,15 +214,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532124" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25699168" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3296" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3296" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -243,7 +254,8 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit dos estudos" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit dos estudos" />
+    <MESSAGE value="Aprimoramento no sistema de criptografia" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aprimoramento no sistema de criptografia" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -258,19 +270,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TreinarLogica2/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="30" column="78" lean-forward="true" selection-start-line="30" selection-start-column="78" selection-end-line="30" selection-end-column="78" />
+        <state relative-caret-position="82">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding>
-            <marker date="1561290095295" expanded="true" signature="6:68" ph="..." />
-            <marker date="1561290095295" expanded="true" signature="94:3182" ph="{...}" />
-            <marker date="1561290095295" expanded="true" signature="123:3180" ph="{...}" />
-            <marker date="1561290095295" expanded="true" signature="317:505" ph="{...}" />
-            <marker date="1561290095295" expanded="true" signature="561:1232" ph="{...}" />
-            <marker date="1561290095295" expanded="true" signature="587:1011" ph="{...}" />
-            <marker date="1561290095295" expanded="true" signature="1043:1109" ph="{...}" />
-            <marker date="1561290095295" expanded="true" signature="1129:1222" ph="{...}" />
-            <marker date="1561290095295" expanded="true" signature="2312:2714" ph="{...}" />
-            <marker date="1561290095295" expanded="true" signature="2765:3174" ph="{...}" />
+            <marker date="1561642731871" expanded="false" signature="6:41" ph="..." />
+            <marker date="1561642731871" expanded="true" signature="66:1048" ph="{...}" />
+            <marker date="1561642731871" expanded="true" signature="95:1046" ph="{...}" />
+            <marker date="1561642731871" expanded="true" signature="189:1040" ph="{...}" />
+            <marker date="1561642731871" expanded="true" signature="216:831" ph="{...}" />
+            <marker date="1561642731871" expanded="true" signature="863:948" ph="{...}" />
+            <marker date="1561642731871" expanded="true" signature="970:1030" ph="{...}" />
           </folding>
         </state>
       </provider>
