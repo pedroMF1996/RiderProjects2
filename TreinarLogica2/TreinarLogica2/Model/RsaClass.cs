@@ -34,7 +34,7 @@ namespace TreinarLogica2.Model
             Convert.ToBase64String(VerificaByteArray(msg, "O array de bytes aqui é nullo"));
 
         //converte o array de bytes de recebimento em uma string utf8
-        public string TextStringUtf8(byte[] msg) =>
+        private static string TextStringUtf8(byte[] msg) =>
             Encoding.UTF8.GetString(VerificaByteArray(msg, "O array de bytes aqui é nullo"));
 
         public string Encrypt(string msg)
