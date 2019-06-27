@@ -22,15 +22,15 @@ namespace TreinarLogica2.Model
         public void Dispose() => _rsa.Dispose();
 
         //converte a string, que está em utf8, de recebimento em um array de bytes
-        public byte[] TextUtf8Bytes(string msg) =>
+        private static byte[] TextUtf8Bytes(string msg) =>
             Encoding.UTF8.GetBytes(VerificaString(msg, "A string, utf8, aqui é nulla"));
             
         //converte a string, que está em base64, de recebimento em um array de bytes
-        public byte[] TextBase64Bytes(string msg) =>
+        private static byte[] TextBase64Bytes(string msg) =>
             Convert.FromBase64String(VerificaString(msg, "A string, base64, aqui é nulla"));
 
         //converte o array de bytes de recebimento em uma string de base64
-        public string TextStringBase64(byte[] msg) =>
+        private static string TextStringBase64(byte[] msg) =>
             Convert.ToBase64String(VerificaByteArray(msg, "O array de bytes aqui é nullo"));
 
         //converte o array de bytes de recebimento em uma string utf8
