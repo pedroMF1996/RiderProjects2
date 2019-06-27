@@ -13,7 +13,6 @@ namespace RenovaveisVeiculos
             {
                 Console.Clear();
                 MostrarMenu();
-                
             }
         }
     }

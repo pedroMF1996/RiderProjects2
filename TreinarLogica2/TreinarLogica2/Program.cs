@@ -1,87 +1,37 @@
 ﻿using System;
-using System.Security.Cryptography;
-using System.Text;
-
+using TreinarLogica2.Model;
 namespace TreinarLogica2
 {
     internal class Program
     {
-        private static RSAParameters _publicKey;
-        private static RSAParameters _privateKey;
-        private static RSACryptoServiceProvider _rsa;
-
-        private static void Set()
-        {
-            _rsa = new RSACryptoServiceProvider(2048);   
-            _privateKey = _rsa.ExportParameters(true);
-            _publicKey = _rsa.ExportParameters(false);
-        }
-        
+        private static RsaClass _rsa;   
         public static void Main(string[] args)
         {
+
             try
             {
-                Set();
+                _rsa = new RsaClass();
+
+                Console.Write("Escreva a frase a ser criptografada: ");
+                var mensagem = Console.ReadLine();
                 
-                var mensagemCriptografada = Encrypt("hello word");
-                Console.WriteLine(mensagemCriptografada);
+                string mensagemCriptografada = _rsa.Encrypt(mensagem);
+                Console.WriteLine($"\nmensagemCriptografada: \n{mensagemCriptografada}\n\n");
+
+
+                string mensagemDescriptografada = _rsa.Decrypt(mensagemCriptografada);
+                Console.WriteLine($"mensagemDescriptografada: \n\t{mensagemDescriptografada}");
                 
-                Console.WriteLine();
-                Console.WriteLine();
-                var mensagemDescriptografada = Decrypt(mensagemCriptografada);
-                Console.WriteLine(mensagemDescriptografada);
+                _ = Console.ReadLine();
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
-            }
+                Console.WriteLine($"Erro: {e.Message}");
+            }  
             finally
             {
-                //Fecha provedor
                 _rsa.Dispose();
             }
         }
-        
-        //converte a string, que está em utf8, de recebimento em um array de bytes
-        private static byte[] TextUtf8Bytes(string msg) => 
-            Encoding.UTF8.GetBytes(msg ?? throw new ApplicationException("A string, utf8, aqui é nulla"));
-        
-        //converte a string, que está em base64, de recebimento em um array de bytes
-        private static byte[] TextBase64Bytes(string msg) => 
-            Convert.FromBase64String(msg ?? throw new ApplicationException("A string, base64, aqui é nulla"));
-        
-        //converte o array de bytes de recebimento em uma string de base64
-        private static string TextStringBase64(byte[] msg) => 
-            Convert.ToBase64String(msg ?? throw new ApplicationException("O array de bytes aqui é nullo"));
-
-        //converte o array de bytes de recebimento em uma string utf8
-        private static string TextStringUtf8(byte[] msg) =>
-            Encoding.UTF8.GetString(msg ?? throw new ApplicationException("O array de bytes aqui é nullo"));
-        
-        private static string Encrypt(string msg)
-        {
-            //converte a string de recebimento em um array de bytes
-            var textBytes = TextUtf8Bytes(msg);
-            
-            //criptografa a string
-                _rsa.ImportParameters(_publicKey);
-                var result = _rsa.Encrypt(textBytes, false);
-            
-            //retorna a string ja criptografada
-            return TextStringBase64(result);
-        }
-
-        private static string Decrypt(string msg)
-        {
-            //converte a string de recebimento em um array de bytes
-            var textBytes = TextBase64Bytes(msg);
-            
-            //descriptografa a string
-                _rsa.ImportParameters(_privateKey);
-                var result = _rsa.Decrypt(textBytes, false);
-            
-            //retorna a string ja descriptografada
-            return TextStringUtf8(result);
-        }
     }
-}    
+}
