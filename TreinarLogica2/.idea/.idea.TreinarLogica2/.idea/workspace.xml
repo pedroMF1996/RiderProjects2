@@ -24,16 +24,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="561ecaca-fb7a-4adb-afd7-52e87ebb3e8d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../RenovaveisVeiculos/.idea/.idea.RenovaveisVeiculos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RenovaveisVeiculos/.idea/.idea.RenovaveisVeiculos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RenovaveisVeiculos/RenovaveisVeiculos/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../RenovaveisVeiculos/RenovaveisVeiculos/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TreinarLogica2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TreinarLogica2/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TreinarLogica2/TreinarLogica2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TreinarLogica2/TreinarLogica2.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TreinarLogica2/bin/Debug/TreinarLogica2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TreinarLogica2/bin/Debug/TreinarLogica2.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TreinarLogica2/bin/Debug/TreinarLogica2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TreinarLogica2/bin/Debug/TreinarLogica2.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TreinarLogica2/obj/Debug/TreinarLogica2.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TreinarLogica2/obj/Debug/TreinarLogica2.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TreinarLogica2/obj/Debug/TreinarLogica2.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TreinarLogica2/obj/Debug/TreinarLogica2.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TreinarLogica2/obj/Debug/TreinarLogica2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TreinarLogica2/obj/Debug/TreinarLogica2.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TreinarLogica2/obj/Debug/TreinarLogica2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TreinarLogica2/obj/Debug/TreinarLogica2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TreinarLogica2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TreinarLogica2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TreinarLogica2/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            <state relative-caret-position="206">
+              <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
               <folding>
                 <marker date="1561642731871" expanded="false" signature="6:41" ph="..." />
                 <marker date="1561642731871" expanded="true" signature="66:1048" ph="{...}" />
@@ -61,18 +52,55 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TreinarLogica2/Test/TestClass.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding>
+                <marker date="1561609219128" expanded="true" signature="45:596" ph="{...}" />
+                <marker date="1561609219128" expanded="true" signature="74:594" ph="{...}" />
+                <marker date="1561609219128" expanded="true" signature="160:344" ph="{...}" />
+                <marker date="1561609219128" expanded="true" signature="231:310" ph="{...}" />
+                <marker date="1561609219128" expanded="true" signature="422:588" ph="{...}" />
+                <marker date="1561609219128" expanded="true" signature="475:554" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TreinarLogica2/Model/RsaClass.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-49">
+              <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+              <folding>
+                <marker date="1561643120453" expanded="false" signature="6:112" ph="..." />
+                <marker date="1561643120453" expanded="true" signature="144:2396" ph="{...}" />
+                <marker date="1561643120453" expanded="true" signature="172:2394" ph="{...}" />
+                <marker date="1561643120453" expanded="true" signature="337:522" ph="{...}" />
+                <marker date="1561643120453" expanded="true" signature="1586:1962" ph="{...}" />
+                <marker date="1561643120453" expanded="true" signature="2005:2388" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/TreinarLogica2/Test/TestClass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TreinarLogica2/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TreinarLogica2/Model/RsaClass.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/TreinarLogica2/Program.cs" />
+        <option value="$PROJECT_DIR$/TreinarLogica2/Model/RsaClass.cs" />
       </list>
     </option>
   </component>
@@ -99,6 +127,32 @@
     <panes>
       <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="TreinarLogica2" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="TreinarLogica2" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="TreinarLogica2" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="TreinarLogica2" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="TreinarLogica2" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Model" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="TreinarLogica2" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="TreinarLogica2" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Test" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
         <option name="show-all-files" value="false" />
       </pane>
       <pane id="AssemblyExplorer" />
@@ -160,7 +214,7 @@
       <updated>1561161206515</updated>
       <workItem from="1561161238730" duration="7920000" />
       <workItem from="1561289849381" duration="1091000" />
-      <workItem from="1561641401150" duration="907000" />
+      <workItem from="1561641401150" duration="1504000" />
     </task>
     <task id="LOCAL-00001" summary="commit dos estudos">
       <created>1561166679314</created>
@@ -197,11 +251,32 @@
       <option name="project" value="LOCAL" />
       <updated>1561642783384</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Aprimoramento no sistema de criptografia">
+      <created>1561642877803</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1561642877803</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Aprimoramento no sistema de criptografia">
+      <created>1561643026841</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1561643026841</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Aprimoramento no sistema de criptografia">
+      <created>1561643128177</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1561643128177</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9918000" />
+    <option name="totallyTimeSpent" value="10515000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -216,14 +291,14 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25699168" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25699168" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3296" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3296" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -268,10 +343,40 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TreinarLogica2/Model/RsaClass.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+          <folding>
+            <marker date="1561643120453" expanded="false" signature="6:112" ph="..." />
+            <marker date="1561643120453" expanded="true" signature="144:2396" ph="{...}" />
+            <marker date="1561643120453" expanded="true" signature="172:2394" ph="{...}" />
+            <marker date="1561643120453" expanded="true" signature="337:522" ph="{...}" />
+            <marker date="1561643120453" expanded="true" signature="1586:1962" ph="{...}" />
+            <marker date="1561643120453" expanded="true" signature="2005:2388" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TreinarLogica2/Test/TestClass.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <marker date="1561609219128" expanded="true" signature="45:596" ph="{...}" />
+            <marker date="1561609219128" expanded="true" signature="74:594" ph="{...}" />
+            <marker date="1561609219128" expanded="true" signature="160:344" ph="{...}" />
+            <marker date="1561609219128" expanded="true" signature="231:310" ph="{...}" />
+            <marker date="1561609219128" expanded="true" signature="422:588" ph="{...}" />
+            <marker date="1561609219128" expanded="true" signature="475:554" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TreinarLogica2/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        <state relative-caret-position="206">
+          <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
           <folding>
             <marker date="1561642731871" expanded="false" signature="6:41" ph="..." />
             <marker date="1561642731871" expanded="true" signature="66:1048" ph="{...}" />

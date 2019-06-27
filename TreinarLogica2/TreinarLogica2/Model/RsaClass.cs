@@ -7,9 +7,9 @@ namespace TreinarLogica2.Model
 {
     public class RsaClass
     {
-        private RSAParameters _publicKey;
-        private RSAParameters _privateKey;
-        private RSACryptoServiceProvider _rsa;
+        private readonly RSAParameters _publicKey;
+        private readonly RSAParameters _privateKey;
+        private readonly RSACryptoServiceProvider _rsa;
 
         public RsaClass()
         {
